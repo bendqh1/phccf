@@ -4,7 +4,7 @@
 	$phone = $_POST['phone'];
 	$phone = $_POST['topic'];
 	# $phone = $_POST['date'];
-	# $phone = $_POST['notes'];
+	$notes = $_POST['notes'];
 
 	$recipient = "YOUR_EMAIL_ADDRESS_NAME@EXAMPLE.COM";
 	$subject = "פנייה מטופס יצירת קשר";
