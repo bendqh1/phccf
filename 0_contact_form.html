@@ -5,9 +5,17 @@
 		<style>
 			.required:after {content:"* "; color: red;} /*Because of RTL, it's "before" and not "after; */
 		</style>
+		<script>
+			function redirectAfterSending() {
+				setTimeout(()=>{
+					window.location.replace("http://walla.co.il");
+  					return false;
+				}, 5000);
+			}
+		</script>
 	</head>
 	<body>
-		<form dir="rtl" lang="he" method="POST" action="/0_contact_form.php" id="contact-form">
+		<form dir="rtl" lang="he" method="POST" action="/0_contact_form.php" onsubmit="return redirectMe();" id="contact-form">
 			<h2>יצירת קשר</h2>
 			<p><label for="name" class="required">שם</label><input name="name" type="text" required id="cf_name"></input></p>
 	<p><label for="email" class="required">כתובת אימייל</label><input name="email" type="text" required id="cf_email"></input></p>
