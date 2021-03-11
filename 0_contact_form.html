@@ -6,11 +6,11 @@
 	<body>
 		<form dir="rtl" method="POST" action="/0_contact_form.php" id="contact-form">
 			<h2>יצירת קשר</h2>
-			<p><label>שם:</label> <input name="name" type="text" id="cf_name"/></p>
-			<p><label>כתובת אימייל:</label> <input name="email" type="text" id="cf_email" /></p>
-			<p><label>מספר טלפון:</label> <input type="tel" name="phone" type="text" pattern="[0-9]-[0-9]" id="cf_phone" /></p>
+			<p><label>שם: </label><input name="name" type="text" required id="cf_name"></input></p>
+	<p><label>כתובת אימייל: </label><input name="email" type="text" required id="cf_email"></input></p>
+			<p><label>מספר טלפון: </label><input type="tel" name="phone" type="text" pattern="[0-9]-[0-9]" id="cf_phone"></input></p>
 
-			<p><label for="cars">פנייה בנושא:</label> <select name="topic" id="cf_topic">
+			<p><label for="cars">פנייה בנושא: </label> <select name="topic" id="cf_topic">
 				<option value="אבחון קידום אתרים (כמפורט במחירון)">אבחון קידום אתרים (כמפורט במחירון)</option>
 				<option value="שיווק באמצעות תוכן (כמפורט במחירון)">שיווק באמצעות תוכן (כמפורט במחירון)</option>
 				<option value="פיתוח קישורים (כמפורט במחירון)">פיתוח קישורים (כמפורט במחירון)</option>
@@ -21,10 +21,10 @@
 			<!-- To get the English sorted in an LTR manner, delete the right-sided duplication of the Hebrew text -->
 			<!--
 			<label for="birthday">תאריך ושעה רצויים לפגישה (אם יש):</label>
-			<input type="date" id="cf_date" name="date">
+			<input type="date" name="date" required id="cf_date">
 			-->
 
-			<p><label>הערות (אם יש):</label> <input name="notes" type="text" id="cf_notes"/></p>
+			<p><label>הערות (אם יש): </label> <input name="notes" type="text" id="cf_notes"/></p>
 			<p><input type="submit" value="שליחה" /></p>
 			<br><br>
 		</form>
