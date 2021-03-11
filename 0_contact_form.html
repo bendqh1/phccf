@@ -3,7 +3,7 @@
 	<head>
 		<title>First Page</title>
 		<style>
-			.required:after {content:" * "; color: red;} /*Because of RTL, it's "before" and not "after; */
+			.required:after {content:"* "; color: red;} /*Because of RTL, it's "before" and not "after; */
 		</style>
 	</head>
 	<body>
@@ -11,7 +11,7 @@
 			<h2>יצירת קשר</h2>
 			<p><label for="name" class="required">שם</label><input name="name" type="text" required id="cf_name"></input></p>
 	<p><label for="email" class="required">כתובת אימייל</label><input name="email" type="text" required id="cf_email"></input></p>
-			<p><label for="phone">מספר טלפון</label><input type="tel" name="phone" type="text" id="cf_phone"></input></p>
+			<p><label for="phone">מספר טלפון </label><input type="tel" name="phone" type="text" id="cf_phone"></input></p> <!-- SPECIFICALLY ADDED WHITESPACE -->
 
 			<p><label for="topic">פנייה בנושא</label> <select name="topic" id="cf_topic">
 				<option value="אבחון קידום אתרים (כמפורט במחירון)">אבחון קידום אתרים (כמפורט במחירון)</option>
@@ -28,8 +28,7 @@
 			-->
 
 			<p><label for="notes">הערות (אם יש)</label> <input name="notes" type="text" id="cf_notes"/></p>
-			<p><input type="submit" value="שליחה" /></p>
-			<br><br>
+			<p><input type="submit" value="שליחה"></input></p>
 		</form>
 	</body>
 </html>
