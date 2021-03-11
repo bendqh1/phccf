@@ -2,17 +2,6 @@
 <html>
 	<head>
 		<title>First Page</title>
-		<style>
-			.required:after {content:"* "; color: red;} /*Because of RTL, it's "before" and not "after; */
-		</style>
-		<script>
-			function redirectAfterSending() {
-				setTimeout(()=>{
-					window.location.replace("http://walla.co.il");
-  					return false;
-				}, 5000);
-			}
-		</script>
 	</head>
 	<body>
 		<form dir="rtl" lang="he" method="POST" action="/0_contact_form.php" onsubmit="return redirectMe();" id="contact-form">
