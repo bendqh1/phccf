@@ -1,15 +1,9 @@
 <?php
-	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$phone = $_POST['phone'];
-	$topic = $_POST['topic'];
-	$date = $_POST['date'];
-	$notes = $_POST['notes'];
+	$to = "YOUR_EMAIL_ADDRESS_NAME@YOUR_EMAIL_ADDRESS_DELIMITER";
+	$headers = $email = $_POST['email'] .  "\r\n";
 
-	$to = "YOUR_EMAIL_ADDRESS_NAME@YOUR_EMAIL_ADDRESS_DELIMITER"; ##### NOTE #####
-	$headers = "From: $email \r\n";
-	$subject = "פנייה מטופס יצירת קשר מאת" . $name;
-	$message = $phone . echo htmlspecialchars("<br>") . $topic . echo htmlspecialchars("<br>") . $notes
+	$subject = "פנייה מטופס יצירת קשר מאת" . $name = $_POST['name'];
+	$message = $phone = $_POST['phone'] . "\r\n" . $topic = $_POST['topic'] . "\r\n" . $date = $_POST['date'] . "\r\n" . $notes = $_POST['notes'];
 	
-	mail($to, $headers, $subject, $message) or die("Error!");
+	mail($to, $headers, $subject, $message);
 ?>
