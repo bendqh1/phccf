@@ -1,5 +1,5 @@
 // Select contact form:
-const contact_form = document.querySelector("#contact-form");
+const contact_form = document.querySelector("#contact_form");
 
 // A function to call on(the)Submit event:
 function passedProcedure() {
