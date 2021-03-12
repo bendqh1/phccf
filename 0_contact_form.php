@@ -4,6 +4,7 @@
 	$phone = $_POST["phone"];
 	$topic = $_POST["topic"];
 	$date = $_POST["date"];
+	$time = $_POST["time"];
 	$notes = $_POST["notes"];
 
 	$to = "example@example.com"; ########## !!! NOTE !!! ##########
@@ -13,7 +14,8 @@
 		$email . "אימייל" . "\r\n",
 		$phone . "טלפון" . "\r\n",
 		$topic . "פנייה בנושא" . "\r\n",
-		$date . "תאריך רצוי לפגישה (אם יש)" . "\r\n",
+		$date . "יום רצוי לפגישה (אם יש)" . "\r\n",
+		$time . "שעה רצויה לפגישה (אם יש)" . "\r\n",
 		$notes . "הערות (אם יש)" . "\r\n"
 	);
 	$headers = array(
