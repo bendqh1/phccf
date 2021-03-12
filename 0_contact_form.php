@@ -3,7 +3,7 @@
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$topic = $_POST['topic'];
-	# $date = $_POST['date'];
+	$date = $_POST['date'];
 	$notes = $_POST['notes'];
 
 	$to = "YOUR_EMAIL_ADDRESS_NAME@YOUR_EMAIL_ADDRESS_DELIMITER"; ##### NOTE #####
