@@ -8,4 +8,4 @@ function passedProcedure() {
 }
 
 // On(the)Submit event call passedProcedure():
-contact_form.addEventListener("submit", passedProcedure) 
+contact_form.addEventListener("submit", passedProcedure)
