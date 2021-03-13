@@ -7,7 +7,7 @@
 	$time = $_POST["time"];
 	$notes = $_POST["notes"];
 
-	$to = "example@example.com"; ########## !!! NOTE !!! ##########
+	$to = "example@example.com";
 	$subject = "הודעת יצירת קשר";
 	$message = array (
 		$name . "שם" . "\r\n",
