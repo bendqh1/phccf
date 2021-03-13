@@ -1,12 +1,16 @@
 ## Set variables
 
-read an_already_downloaded_version
-# web_application_root/CMS-Website-Dir/prcf-main/
+    read delete_an_existing_prcf-main
 
-read download_destination
-# web_application_root/CMS-Website-Dir
+> web_application_root/CMS-Website-Dir/prcf-main/
 
-read to_email_address
+    read download_prcf-main_destination
+    
+> web_application_root/CMS-Website-Dir/
+
+    read to_email_address
+
+> The email address to which form inquieries should be emailed;
 
 ## Do tasks
 
