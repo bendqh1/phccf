@@ -1,10 +1,10 @@
 ## Set variables
 
-    read prfc-main-dir
+    read prfc_main_dir
 
 ## Do tasks
 
-    cd prfc-main_dir
+    cd prfc_main_dir
     cd ..
     curl https://github.com/bendqh1/prcf/archive/main.zip
     unzip prfc-main.zip
