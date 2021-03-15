@@ -1,20 +1,11 @@
 ## Set variables
 
-    read delete_an_existing_prcf-main
-
-> web_application_root/CMS-Website-Dir/prcf-main/
-
-    read download_prcf-main_destination
-    
-> web_application_root/CMS-Website-Dir/
-
-    read to_email_address
-
-> The email address to which form inquieries should be emailed;
+    read prfc-main_dir
 
 ## Do tasks
 
-rm -rf an_already_downloaded_version
-wget https://github.com/bendqh1/prcf/archive/main.zip -O "${download_destination}"
-unzip "${download_destination}"/prfc-main
-sed 
+    cd prfc-main_dir
+    cd ..
+    curl https://github.com/bendqh1/prcf/archive/main.zip
+    unzip prfc-main.zip
+    nano prfc-main/[0-9_]*contact_form.php
