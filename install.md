@@ -1,6 +1,6 @@
 ## Set variables
 
-    read prfc-main_dir
+    read prfc-main-dir
 
 ## Do tasks
 
