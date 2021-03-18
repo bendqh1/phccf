@@ -1,13 +1,13 @@
 ## Set variables
 
 ```shell
-read prfc_dir
+read domain_dir
 ```
 
 ## Do tasks
 
 ```shell
-cd "$prfc_dir" && cd ..
+cd "${domain_dir}"
 rm -rf "${prfc_dir}"
 curl https://github.com/bendqh1/prcf/archive/main.zip
 unzip prfc-main.zip
