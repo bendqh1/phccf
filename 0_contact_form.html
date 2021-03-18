@@ -10,9 +10,15 @@
 	<body>
 		<form dir="rtl" lang="he" method="POST" action="./0_contact_form.php" onsubmit="return redirectMe();" id="contact_form">
 			<h2>יצירת קשר</h2>
-			<p><label for="name" class="required">שם</label><input type="text" name="name" required id="cf_name"></input></p>
-	<p><label for="email" class="required">כתובת אימייל</label><input type="email" name="email" required id="cf_email"></input></p>
-			<p><label for="phone">מספר טלפון </label><input type="tel" name="phone" id="cf_phone"></input></p>
+			
+			<p><label for="name" class="required">שם</label>
+			<input type="text" name="name" id="cf_name" required></input></p>
+
+			<p><label for="email" class="required">כתובת אימייל</label>
+			<input type="email" name="email" required id="cf_email"></input></p>
+			
+			<p><label for="phone">מספר טלפון </label>
+			<input type="tel" name="phone" id="cf_phone"></input></p>
 			<!-- SPECIFICALLY ADDED WHITESPACE TO מספר טלפון -->
 
 			<p><label for="topic">פנייה בנושא</label> <select name="topic" id="cf_topic">
@@ -23,10 +29,15 @@
 				<option value="נגישות">נגישות</option>
 			</select></p>
 
-			<label for="date">יום רצוי לפגישה (אם יש)</label> <input type="date" name="date" id="cf_date">
-			<label for="time">שעה רצויה לפגישה (אם יש)</label> <input type="time" name="time" id="cf_time">
+			<label for="date">יום רצוי לפגישה (אם יש)</label> 
+			<input type="date" name="date" id="cf_date">
 
-			<p><label for="notes">הערות (אם יש)</label> <input name="notes" type="text" id="cf_notes"/></p>
+			<label for="time">שעה רצויה לפגישה (אם יש)</label>
+			<input type="time" name="time" id="cf_time">
+
+			<p><label for="notes">הערות (אם יש)</label> 
+			<input name="notes" type="text" id="cf_notes"/></p>
+
 			<p><input type="submit" value="שליחה"></input></p>
 		</form>
 	</body>
