@@ -11,10 +11,11 @@ rm main.zip &&
 while true; do
     read -p "Do you wish to configure your email address for the form in the php file?" yn
     case $yn in
-        [Yy]* ) nano prcf-main/0_contact_form.php; ##break;;
-        [Nn]* ) break #exit;;
+        [Yy]* ) nano prcf-main/0_contact_form.php; break;;
+        [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
 done
 
-# In the `curl` above `=L` is to follow a redirection in which case happens and `-O` is to keep the remote name (instead getting a generic file name).
+# In the loop exit instead (the second) break for total exit;
+# In the `curl` above `=L` is to follow a redirection in which case happens and `-O` is to keep the remote name (instead getting a generic file name);
