@@ -13,4 +13,4 @@ while true; do
         [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
-done
+done && echo "Done"
