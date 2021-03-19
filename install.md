@@ -7,13 +7,13 @@ Currently I personally do it this way:
 ```shell
 home_dir=$(echo $HOME) &&
 read website_path_after_home_dir && 
-prcf=$home_dir+=$website_path_after_home_dir # Note the +=
+prcf_dir=$home_dir+=$website_path_after_home_dir # Note the +=
 ```
 
 ## Do tasks
 
 ```shell
-cd "${domain_dir}"
+cd "${prcf_dir}"
 rm -rf prfc-main
 curl https://github.com/bendqh1/prcf/archive/main.zip
 unzip prfc-main.zip
