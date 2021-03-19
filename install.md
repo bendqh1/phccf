@@ -15,9 +15,13 @@ website_dir="${home_dir}${website_dir_relative_path_after_home_dir}" # Note the 
 ```shell
 cd "${website_dir}"
 rm -rf prcf-main
-curl -L -O https://github.com/ziyaddin/xampp/archive/master.zip # -L is to follow a redirection in which case happens
+curl -L -O https://github.com/bendqh1/prcf/archive/main.zip
 unzip prfc-main.zip
 rm prfc-main.zip
 nano prfc-main/[0-9_]contact_form.php
 IFS=$' \t\n'
 ```
+
+## Notes
+
+In the `curl` above `=L` is to follow a redirection in which case happens and `-O` is to keep the remote name (instead getting a generic file name).
