@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# I suggested to save your website direcotry path into a global variable and then do tasks;
+# If you have just one website directory per system, I suggest to save that website direcotry path into a global variable and then do tasks:
 
 cd "${website_dir}" &&
 rm -rf prcf-main &&
