@@ -27,4 +27,4 @@ In the `curl` above `-L` is to follow a redirection in which case happens and `-
 ## Notes
 
 * The user's email address should be setted at `contact_form.php`.
-* I recommend double ensure that PHP files are not accessible by a browser, to prevent an hardcoded email address from being leaked to spambots.
+* I recommend to double ensure that any PHP file is not accessible by a browser, to prevent an hardcoded email address from being leaked to spambots.
