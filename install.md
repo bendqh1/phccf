@@ -14,7 +14,7 @@ website_dir="${home_dir}${website_dir_relative_path_after_home_dir}" # Note the 
 
 ```shell
 cd "${website_dir}"
-rm -rf prfc-main
+rm -rf prcf-main
 curl https://github.com/bendqh1/prcf/archive/main.zip
 unzip prfc-main.zip
 rm prfc-main.zip
