@@ -1,11 +1,18 @@
 .required:after {content:"* "; color: red;}
 
-form {
+form, #success {
   max-width: 480px;
+  width: 100%;
+  min-height: 500px;
   margin: 0 auto 0;
   padding: 25px;
   border: 2px solid green;
   border-radius: 25px;
+  font-size: 1em;
+}
+
+#success {
+  font-size: 2em;
 }
 
 label {
