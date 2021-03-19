@@ -11,34 +11,35 @@
 		<form dir="rtl" lang="he" method="POST" action="./0_contact_form.php" onsubmit="return redirectMe();" id="contact_form">
 			<h2>יצירת קשר</h2>
 			
-			<p><label for="name" class="required">שם</label>
-			<input type="text" name="name" id="cf_name" required></input></p>
+			<div><label for="name" class="required">שם</label></div>
+			<input type="text" name="name" id="cf_name" required></input>
 
-			<p><label for="email" class="required">כתובת אימייל</label>
-			<input type="email" name="email" required id="cf_email"></input></p>
+			<div><label for="email" class="required">כתובת אימייל</label></div>
+			<input type="email" name="email" required id="cf_email"></input>
 			
-			<p><label for="phone">מספר טלפון </label>
-			<input type="tel" name="phone" id="cf_phone"></input></p>
+			<div><label for="phone">מספר טלפון </label></div>
+			<input type="tel" name="phone" id="cf_phone"></input></div>
 			<!-- SPECIFICALLY ADDED WHITESPACE TO מספר טלפון -->
 
-			<p><label for="topic">פנייה בנושא</label> <select name="topic" id="cf_topic">
+			<div><label for="topic">פנייה בנושא</label></div>
+            <select name="topic" id="cf_topic">
 				<option value="אבחון קידום אתרים (כמפורט במחירון)">אבחון קידום אתרים (כמפורט במחירון)</option>
 				<option value="שיווק באמצעות תוכן (כמפורט במחירון)">שיווק באמצעות תוכן (כמפורט במחירון)</option>
 				<option value="פיתוח קישורים (כמפורט במחירון)">פיתוח קישורים (כמפורט במחירון)</option>
 				<option value="ייעוץ והדרכה (כמפורט במחירון)">ייעוץ והדרכה (כמפורט במחירון)</option>
 				<option value="נגישות">נגישות</option>
-			</select></p>
+			</select>
 
-			<p><label for="date">יום רצוי לפגישה (אם יש)</label></p>
+			<div><label for="date">יום רצוי לפגישה מרחוק (אם יש)</label></div>
 			<input type="date" name="date" id="cf_date">
 
-			<p><label for="time">שעה רצויה לפגישה (אם יש)</label></p>
+			<div><label for="time">שעה רצויה לפגישה מרחוק (אם יש)</label></div>
 			<input type="time" name="time" id="cf_time">
 
-			<p><label for="notes">הערות (אם יש)</label> 
-			<input name="notes" type="text" id="cf_notes"/></p>
+			<div><label for="notes">הערות (אם יש)</label> 
+			<input name="notes" type="text" id="cf_notes"/></div>
 
-			<p><input type="submit" value="שליחה"></input></p>
+			<div><input type="submit" value="שליחה"></input></div>
 		</form>
 	</body>
 </html>
