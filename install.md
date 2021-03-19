@@ -16,10 +16,9 @@ website_dir="${home_dir}${website_dir_relative_path_after_home_dir}" # Note the 
 cd "${website_dir}"
 rm -rf prcf-main
 curl -L -O https://github.com/bendqh1/prcf/archive/main.zip
-unzip prfc-main.zip
-rm prfc-main.zip
+unzip main.zip
+rm main.zip
 nano prfc-main/[0-9_]contact_form.php
-IFS=$' \t\n'
 ```
 
 ## Notes
