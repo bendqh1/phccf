@@ -1,6 +1,6 @@
 # PHP RTL Contact Form
 
-A CMS-agnostic HTML-JavaScript-CSS-PHP simple contact form which is aimed for Right To Left (RTL) languages by design and allows appointment setting.
+A CMS-agnostic HTML-JavaScript-CSS-PHP simple contact form which is aimed solely for Right To Left (RTL) languages and allows appointment setting.
 
 ## Language
 
