@@ -1,7 +1,13 @@
 ## Set variables
 
+I suggested to save your website direcotry path into a variable and then do tasks.
+
+Currently I personally do it this way:
+
 ```shell
-IFS= read -r domain_dir
+home_dir=$(echo $HOME) &&
+read website_path_after_home_dir && 
+prcf=$home_dir+=$website_path_after_home_dir # Note the +=
 ```
 
 ## Do tasks
