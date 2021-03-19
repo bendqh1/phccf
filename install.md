@@ -7,7 +7,7 @@ Currently I personally do it this way:
 ```shell
 home_dir=$(echo $HOME) &&
 read website_dir_relative_path_after_home_dir && 
-website_dir="${home_dir} ${website_dir_relative_path_after_home_dir}"
+website_dir="${home_dir}${website_dir_relative_path_after_home_dir}" # Note the lack of spacing between the two ${}${};
 ```
 
 ## Do tasks
