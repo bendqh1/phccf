@@ -10,6 +10,10 @@ It was originally designed in Hebrew but one should be able to change the Hebrew
 
 This program requires a well configured local email server (such as Postfix to work; it redundents the need in a remote email server accessible by a proxy such as sSMTP).
 
+## Non Git installation
+
+I recommend to do a non Git installation with Bash shell.
+
 ## Notes
 
 * The user's email address should be setted at `contact_form.php`.
