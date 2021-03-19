@@ -20,7 +20,7 @@ I recommend to do a non Git installation, directly from a shell, either by copy-
 
 If you have just one website directory per system, I suggest to save that website direcotry path into a global variable and then do tasks.
 
-In the loop exit instead (the second) break for total exit.
+In the loop, instead the second `break` can come `exit` but this will also terminate the window.
 
 * In the `curl` command:
   * `-L` is to follow a redirection in which case happens
