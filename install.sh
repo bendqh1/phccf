@@ -14,6 +14,3 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
-
-# In the loop exit instead (the second) break for total exit;
-# In the `curl` above `=L` is to follow a redirection in which case happens and `-O` is to keep the remote name (instead getting a generic file name);
