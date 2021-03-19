@@ -12,7 +12,9 @@ This program requires a well configured local email server (such as Postfix to w
 
 ## Non Git installation
 
-I recommend to do a non Git installation with Bash shell.
+I recommend to do a non Git installation, directly from a shell.
+
+If you have just one website directory per system, I suggest to save that website direcotry path into a global variable and then do tasks.
 
 ## Notes
 
