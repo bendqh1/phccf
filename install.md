@@ -5,9 +5,8 @@ I suggested to save your website direcotry path into a variable and then do task
 Currently I personally do it this way:
 
 ```shell
-home_dir=$(echo $HOME) &&
 read website_dir_relative_path_after_home_dir && 
-website_dir="${home_dir}${website_dir_relative_path_after_home_dir}" # Note the lack of spacing between the two ${}${};
+website_dir="${HOME}"/"${website_dir_relative_path_after_home_dir}"
 ```
 
 ## Do tasks
