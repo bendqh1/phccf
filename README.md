@@ -12,11 +12,17 @@ It was originally designed in Hebrew but one should be able to change the Hebrew
 
 This program requires a well configured local email server (such as Postfix) to work.
 
-## Non Git installation
+## Installation
 
-I recommend to do a non Git installation, directly from a shell.
+I recommend to do a non Git installation, directly from a shell, either by copy-pasting or by wget download to stdin and piping to bash (as explained in install.sh).
+
+### install.sh
 
 If you have just one website directory per system, I suggest to save that website direcotry path into a global variable and then do tasks.
+
+In the loop exit instead (the second) break for total exit.
+
+In the `curl` above `-L` is to follow a redirection in which case happens and `-O` is to keep the remote name (instead getting a generic file name).
 
 ## Notes
 
