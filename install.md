@@ -13,7 +13,7 @@ website_dir="${home_dir} ${website_dir_relative_path_after_home_dir}"
 ## Do tasks
 
 ```shell
-cd "${full_path}"
+cd "${website_dir}"
 rm -rf prfc-main
 curl https://github.com/bendqh1/prcf/archive/main.zip
 unzip prfc-main.zip
