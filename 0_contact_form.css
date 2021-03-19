@@ -1,1 +1,22 @@
 .required:after {content:"* "; color: red;}
+
+form {
+  max-width: 480px;
+  margin: 0 auto 0;
+  padding: 25px;
+  border: 2px solid green;
+  border-radius: 25px;
+}
+
+label {
+  margin-bottom: 25px;
+}
+
+input {
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+
+input:last-child {
+  margin-bottom: 0;
+}
