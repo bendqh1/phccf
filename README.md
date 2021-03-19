@@ -22,7 +22,7 @@ If you have just one website directory per system, I suggest to save that websit
 
 In the loop exit instead (the second) break for total exit.
 
-* In the `curl`:
+* In the `curl` command:
   * `-L` is to follow a redirection in which case happens
   * `-O` is to keep the remote name (instead getting a generic file name such as `archive`).
 
