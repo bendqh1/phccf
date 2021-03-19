@@ -18,7 +18,7 @@ rm -rf prcf-main &&
 curl -L -O https://github.com/bendqh1/prcf/archive/main.zip &&
 unzip main.zip &&
 rm main.zip
-nano prfc-main/0_contact_form.php
+nano prcf-main/0_contact_form.php
 ```
 
 ## Notes
