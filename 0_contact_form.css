@@ -32,6 +32,13 @@ input:last-child {
   margin-bottom: 0;
 }
 
+#submit {
+  width: 100%;
+  min-height: 50px;
+  background-color: green;
+  color: #fff
+}
+
 /* NOTES */
 
 /* width: 304px; /*
