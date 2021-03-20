@@ -16,9 +16,14 @@ form, #success {
 
 label {
   margin-bottom: 25px;
+  font-weight: bold;
 }
 
-input {
+label:after {
+  content:":";
+}
+
+input, select {
   margin-bottom: 25px;
   border-radius: 25px;
 }
