@@ -1,8 +1,7 @@
 .required:after {content:"* "; color: red;}
 
 form, #success {
-  max-width: 480px;
-  width: 100%;
+  width: 304px;
   min-height: 500px;
   margin: 0 auto 0;
   padding: 25px;
@@ -27,3 +26,9 @@ input {
 input:last-child {
   margin-bottom: 0;
 }
+
+/* NOTES */
+
+/* width: 304px; /*
+  /* 304px Instead 320px as a "viewport innovation insurance program */
+    /* In case some smartphone producer produces smartphones with less than the standard 320px viewport" */
