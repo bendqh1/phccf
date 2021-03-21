@@ -15,12 +15,15 @@ form, #success {
 label {
   font-weight: bold;
 }
-
 label:after {
   content:":";
 }
-
-.required:after {content:":*"}
+.divBeforeSpan {
+  display:inline-block;
+}
+.required {
+  color: red;
+}
 
 input, select {
   margin-top: 10px;
