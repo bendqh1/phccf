@@ -37,6 +37,7 @@ input:last-child {
   width: 100%;
   background-color: green;
   color: #fff;
+  cursor: pointer;
 }
 
 #cf_input_topic, #cf_input_date, #cf_input_time {
