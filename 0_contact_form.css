@@ -12,7 +12,7 @@ form, #success {
   font-size: 2em;
 }
 
-label, cf_input_submit {
+label, #cf_input_submit {
   font-weight: bold;
 }
 label:after {
