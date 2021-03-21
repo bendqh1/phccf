@@ -1,4 +1,4 @@
-form {
+.general_strcucture {
   width: 304px;
   min-height: 500px;
   margin: 0 auto 0;
@@ -54,6 +54,10 @@ input:last-child {
 
 #cf_input_topic, #cf_input_date, #cf_input_time, #cf_input_submit {
   cursor: pointer;
+}
+
+#success {
+  font-size: 2em;
 }
 
 /* NOTES */
