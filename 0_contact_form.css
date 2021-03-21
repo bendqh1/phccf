@@ -18,9 +18,6 @@ label {
 label:after {
   content:":";
 }
-.divBeforeSpan {
-  display:inline-block;
-}
 .required {
   color: red;
 }
