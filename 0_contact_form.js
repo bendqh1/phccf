@@ -3,7 +3,7 @@ const contact_form = document.querySelector("#contact_form");
 
 const labelAsterisks = document.qeurySelectorAll("label");
 labelAsterisks.forEach((element) => {
-    if (element.textContent.indexOf("*") !== -1)) {
+    if (element.textContent.indexOf("*") !== -1) {
         element.textContent.indexOf.style.color = "Red";
     }
 });
