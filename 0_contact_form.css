@@ -33,7 +33,7 @@ input:last-child {
   margin-bottom: 0;
 }
 
-#submit {
+#cf_input_submit {
   width: 100%;
   background-color: green;
   color: #fff;
