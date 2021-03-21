@@ -34,9 +34,12 @@ input:last-child {
 
 #submit {
   width: 100%;
-  min-height: 50px;
   background-color: green;
-  color: #fff
+  color: #fff;
+}
+
+#cf_topic, #cf_date, #cf_time {
+  cursor: pointer;
 }
 
 /* NOTES */
