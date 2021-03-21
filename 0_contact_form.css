@@ -12,7 +12,7 @@ form, #success {
   font-size: 2em;
 }
 
-label, #cf_input_submit {
+label {
   font-weight: bold;
 }
 label:after {
@@ -38,6 +38,7 @@ input:last-child {
   width: 100%;
   background-color: green;
   color: #fff;
+  font-weight: bold;
 }
 
 #cf_input_submit:hover {
