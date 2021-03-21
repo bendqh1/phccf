@@ -6,6 +6,7 @@ curl -L -O https://github.com/bendqh1/prcf/archive/main.zip
 unzip main.zip
 rm main.zip
 mv /prcf-main/contact_form.html . # MOVE THE FILE to site dir
+mv /prcf-main/success.html . # MOVE THE FILE to site dir
 
 # while true; do
     # read -p "Do you wish to configure your email address for the form in the php file now?" yn
