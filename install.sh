@@ -11,7 +11,7 @@ mv "${website_dir}"/prcf-main/html/contact_form_success.html "${website_dir}"/co
 while true; do
     read -p "Do you wish to configure your email address for the form in the php file now?" yn
     case $yn in
-        [Yy]* ) nano prcf-main/contact_form.php; break;;
+        [Yy]* ) nano prcf-main/backend/contact_form.php; break;;
         [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
