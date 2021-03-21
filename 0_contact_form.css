@@ -39,7 +39,7 @@ input:last-child {
   color: #fff;
 }
 
-#cf_topic, #cf_date, #cf_time {
+#cf_input_topic, #cf_input_date, #cf_input_time {
   cursor: pointer;
 }
 
