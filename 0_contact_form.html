@@ -11,16 +11,16 @@
 		<form dir="rtl" lang="he" method="POST" action="./0_contact_form.php" onsubmit="return redirectMe();" id="contact_form">
 			<h2>יצירת קשר</h2>
 			
-			<div><label for="name" class="required">שם</label></div>
+			<div><label for="name" class="required" id="cf_label_name">שם</label></div>
 			<input type="text" name="name" id="cf_input_name" required></input>
 
-			<div><label for="email" class="required">כתובת אימייל</label></div>
+			<div><label for="email" class="required" id="cf_label_email">כתובת אימייל</label></div>
 			<input type="email" name="email" required id="cf_input_email"></input>
 			
-			<div><label for="phone">מספר טלפון</label></div>
+			<div><label for="phone" id="cf_label_phone">מספר טלפון</label></div>
 			<input type="tel" name="phone" id="cf_input_phone"></input></div>
 
-			<div><label for="topic">פנייה בנושא</label></div>
+			<div><label for="topic" id="cf_label_topic">פנייה בנושא</label></div>
             <select name="topic" id="cf_input_topic">
 				<option value="אבחון קידום אתרים (כמפורט במחירון)">אבחון קידום אתרים (כמפורט במחירון)</option>
 				<option value="שיווק באמצעות תוכן (כמפורט במחירון)">שיווק באמצעות תוכן (כמפורט במחירון)</option>
@@ -29,13 +29,13 @@
 				<option value="נגישות">נגישות</option>
 			</select>
 
-			<div><label for="date">יום רצוי לפגישה מרחוק (אם יש)</label></div>
+			<div><label for="date" id="cf_label_date">יום רצוי לפגישה מרחוק (אם יש)</label></div>
 			<input type="date" name="date" id="cf_input_date">
 
-			<div><label for="time">שעה רצויה לפגישה מרחוק (אם יש)</label></div>
+			<div><label for="time" id="cf_label_time">שעה רצויה לפגישה מרחוק (אם יש)</label></div>
 			<input type="time" name="time" id="cf_input_time">
 
-			<div><label for="notes">הערות (אם יש)</label></div>
+			<div><label for="notes" id="cf_label_notes">הערות (אם יש)</label></div>
 			<input name="notes" type="text" id="cf_inpput_notes"></input>
 
 			<div><input type="submit" value="שליחה" id="cd_input_submit"></input></div>
