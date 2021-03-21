@@ -23,7 +23,6 @@
 		"Reply-To" => $email,
 		"X-Mailer: PHP/" . phpversion()
 	);
-	# The order should be as above: $to, $subject, $message and $headers
 	
 	mail($to, $subject, $message, $headers);
 ?>
