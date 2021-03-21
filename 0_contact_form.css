@@ -12,7 +12,7 @@ form, #success {
   font-size: 2em;
 }
 
-label {
+label, cf_input_submit {
   font-weight: bold;
 }
 label:after {
@@ -48,11 +48,11 @@ input:last-child {
 
 
 #cf_input_submit:hover, #cf_input_submit:focus {
-  background-color: lightgreen;
+  background-color: lime;
 }
 
 #cf_input_submit:active {
-  background-color: lime;
+  background-color: green;
 }
 
 #cf_input_topic, #cf_input_date, #cf_input_time, #cf_input_submit {
