@@ -14,19 +14,13 @@ This program requires a well configured local email server (such as Postfix) to 
 
 ## Installation
 
-I recommend to do a non Git installation, directly from a shell, either by copy-pasting or by wget download to stdin and piping to bash (as explained in install.sh).
-
-### install.sh
-
-If you have just one website directory per system, I suggest to save that website direcotry path into a global variable and then do tasks.
-
-In the loop, instead the second `break` can come `exit` but this will also terminate the window.
-
-* In the `curl` command:
-  * `-L` is to follow a redirection in which case happens
-  * `-O` is to keep the remote name (instead getting a generic file name such as `archive`).
+I recommend to do a non Git installation, directly from a shell, either by copy-pasting or by `wget`ing and `source`ing a local version (but first anyway by copy-pasting becuase I clue there about a `${website_dir}` variable than can ease loading the script remotely which is especially relvant if you have just one website directory per system, I suggest to save that website direcotry path into a variable and then do tasks.
 
 ## Notes
 
-* The user's email address should be setted at `contact_form.php`.
+* The user's email address should be setted at `contact_form.php` (install.sh prompts about that);
 * I recommend to double ensure that any PHP file is not accessible by a browser, to prevent an hardcoded email address from being leaked to spambots.
+* In the loop, instead the second `break` can come `exit` but this will also terminate the window.
+* In the `curl` command:
+  * `-L` is to follow a redirection in which case happens
+  * `-O` is to keep the remote name (instead getting a generic file name such as `archive`).
