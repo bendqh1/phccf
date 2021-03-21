@@ -25,6 +25,7 @@ label:after {
 input, select {
   margin-top: 10px;
   margin-bottom: 25px;
+  border: 2px solid initial;
   border-radius: 25px;
 }
 
