@@ -25,6 +25,10 @@ input, select {
   border-radius: 25px;
 }
 
+input:hover, select:hover, input:focus, select:focus {
+  border-color: green; 
+}
+
 input:last-child {
   margin-top: 0;
   margin-bottom: 0;
