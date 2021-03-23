@@ -19,9 +19,9 @@
 		$notes . "הערות (אם יש)" . "\r\n"
 	);
 	$headers = array(
-		"From" => $email,
-		"Reply-To" => $email,
-		"X-Mailer: PHP/" . phpversion()
+		# "From" => $email, # If your website hoster isn't your email hoster this shouldn't be setted
+		# "Reply-To" => $email, # Same as above
+		# "X-Mailer: PHP/" . phpversion() # Same as above
 	);
 	
 	mail($to, $subject, $message, $headers);
