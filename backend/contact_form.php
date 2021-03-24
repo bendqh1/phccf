@@ -19,9 +19,10 @@
 		$notes . "הערות (אם יש)" . "\r\n"
 	);
 	$headers = array(
-		# "From" => $email, # If your website hoster isn't your email hoster this shouldn't be setted
-		# "Reply-To" => $email, # Same as above
-		# "X-Mailer: PHP/" . phpversion() # Same as above
+		"From" => $email,
+		"Reply-To" => $email,
+		"X-Mailer: PHP/" . phpversion()
+		# If your website hoster isn't your email hoster don't use it, otherwise the email is likely to be grasped as a faked email (spoof);
 	);
 	
 	mail($to, $subject, $message, $headers);
