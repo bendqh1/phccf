@@ -7,7 +7,7 @@ unzip main.zip
 rm main.zip
 
 while true; do
-    read -p "Do you wish to configure your email address for the form in the php file now?" yn
+    read -p "Do you wish to configure php variables now?" yn
     case $yn in
         [Yy]* ) nano prcf-main/backend/contact_form.php; break;;
         [Nn]* ) break;;
