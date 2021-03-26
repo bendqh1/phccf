@@ -1,29 +1,21 @@
 <?php
-	$name = $_POST["name"];
-	$email = $_POST["email"];
-	$phone = $_POST["phone"];
-	$topic = $_POST["topic"];
-	$date = $_POST["date"];
-	$time = $_POST["time"];
-	$notes = $_POST["notes"];
+	$contact_form_url="example.com/contact";
 
 	$to = "example@example.com";
-	$subject = "הודעת יצירת קשר";
+	$subject = "New email message";
 	$message = array (
-		$name . "שם" . "\r\n",
-		$email . "אימייל" . "\r\n",
-		$phone . "טלפון" . "\r\n",
-		$topic . "פנייה בנושא" . "\r\n",
-		$date . "יום רצוי לפגישה (אם יש)" . "\r\n",
-		$time . "שעה רצויה לפגישה (אם יש)" . "\r\n",
-		$notes . "הערות (אם יש)" . "\r\n"
+		$name = $_POST["name"] . "Name:" . "\r\n",
+		$email = $_POST["email"] . "Email:" . "\r\n",
+		$phone = $_POST["phone"] . "Phone:" . "\r\n",
+		$topic = $_POST["topic"] . "Topic:" . "\r\n",
+		$date = $_POST["date"] . "Date:" . "\r\n",
+		$time = $_POST["time"] . "Time:" . "\r\n",
+		$notes = $_POST["notes"] . "Notes:" . "\r\n"
 	);
-	$headers = array(
-		"From" => $email,
-		"Reply-To" => $email,
-		"X-Mailer: PHP/" . phpversion()
-		# If your website hoster isn't your email hoster don't use it, otherwise the email is likely to be grasped as a faked email (spoof);
-	);
-	
-	mail($to, $subject, $message, $headers);
+	mail($to, $subject, $message);
+
+	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+ 		header("Location: $contact_form_url");
+		exit;
+	}
 ?>
