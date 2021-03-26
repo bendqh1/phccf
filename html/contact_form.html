@@ -8,35 +8,37 @@
 		<!-- Normally scripts comes under the <body> tag but for a contact form file here is also fine -->
 	</head>
 	<body>
-		<form dir="rtl" lang="he" id="contact_form" class="general_structure" action="prcf-main/backend/contact_form.php" method="POST" onsubmit="replace()">
-			<div><span><label for="name" id="cf_label_name">שם</label></span><span class="required">*</span></div>
-			<input type="text" name="name" id="cf_input_name" required></input>
+		div id="formParentForChildReplacement>
+			<form dir="rtl" lang="he" id="contact_form" class="general_structure" action="prcf-main/backend/contact_form.php" method="POST" onsubmit="replace()">
+				<div><span><label for="name" id="cf_label_name">שם</label></span><span class="required">*</span></div>
+				<input type="text" name="name" id="cf_input_name" required></input>
 
-			<div><span><label for="email" id="cf_label_email">כתובת אימייל</label></span><span class="required">*</span></div>
-			<input type="email" name="email" required id="cf_input_email"></input>
-			
-			<div><label for="phone" id="cf_label_phone">מספר טלפון</label></div>
-			<input type="tel" name="phone" id="cf_input_phone"></input></div>
+				<div><span><label for="email" id="cf_label_email">כתובת אימייל</label></span><span class="required">*</span></div>
+				<input type="email" name="email" required id="cf_input_email"></input>
 
-			<div><label for="topic" id="cf_label_topic">פנייה בנושא</label></div>
-            <select name="topic" id="cf_input_topic">
-				<option value="אבחון קידום אתרים (כמפורט במחירון)">אבחון קידום אתרים (כמפורט במחירון)</option>
-				<option value="שיווק באמצעות תוכן (כמפורט במחירון)">שיווק באמצעות תוכן (כמפורט במחירון)</option>
-				<option value="פיתוח קישורים (כמפורט במחירון)">פיתוח קישורים (כמפורט במחירון)</option>
-				<option value="ייעוץ והדרכה (כמפורט במחירון)">ייעוץ והדרכה (כמפורט במחירון)</option>
-				<option value="נגישות">נגישות</option>
-			</select>
+				<div><label for="phone" id="cf_label_phone">מספר טלפון</label></div>
+				<input type="tel" name="phone" id="cf_input_phone"></input></div>
 
-			<div><label for="date" id="cf_label_date">יום רצוי לפגישה מרחוק (אם יש)</label></div>
-			<input type="date" name="date" id="cf_input_date">
+				<div><label for="topic" id="cf_label_topic">פנייה בנושא</label></div>
+		    <select name="topic" id="cf_input_topic">
+					<option value="אבחון קידום אתרים (כמפורט במחירון)">אבחון קידום אתרים (כמפורט במחירון)</option>
+					<option value="שיווק באמצעות תוכן (כמפורט במחירון)">שיווק באמצעות תוכן (כמפורט במחירון)</option>
+					<option value="פיתוח קישורים (כמפורט במחירון)">פיתוח קישורים (כמפורט במחירון)</option>
+					<option value="ייעוץ והדרכה (כמפורט במחירון)">ייעוץ והדרכה (כמפורט במחירון)</option>
+					<option value="נגישות">נגישות</option>
+				</select>
 
-			<div><label for="time" id="cf_label_time">שעה רצויה לפגישה מרחוק (אם יש)</label></div>
-			<input type="time" name="time" id="cf_input_time">
+				<div><label for="date" id="cf_label_date">יום רצוי לפגישה מרחוק (אם יש)</label></div>
+				<input type="date" name="date" id="cf_input_date">
 
-			<div><label for="notes" id="cf_label_notes">הערות (אם יש)</label></div>
-			<input name="notes" type="text" id="cf_inpput_notes"></input>
+				<div><label for="time" id="cf_label_time">שעה רצויה לפגישה מרחוק (אם יש)</label></div>
+				<input type="time" name="time" id="cf_input_time">
 
-			<div><input type="submit" value="שליחה" id="cf_input_submit"></input></div>
-		</form>
+				<div><label for="notes" id="cf_label_notes">הערות (אם יש)</label></div>
+				<input name="notes" type="text" id="cf_inpput_notes"></input>
+
+				<div><input type="submit" value="שליחה" id="cf_input_submit"></input></div>
+			</form>
+		</div>
 	</body>
 </html>
