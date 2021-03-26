@@ -8,3 +8,5 @@ success.setAttribute("id", "success");
 success.classList.add("general_structure", "success");
 success.innerHTML = "תודה על ההתעניינות לעבוד עימי,<br>על כל פנייה בנושאי עבודה או נגישות אשתדל להשיב בהקדם<br>בברכה,"
 
+let formParent = document.querySelector("#formParent");
+formParent.replaceChild(success, contact_form);
