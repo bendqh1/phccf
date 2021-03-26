@@ -12,6 +12,7 @@
 		$time = $_POST["time"] . "Time:" . "\r\n",
 		$notes = $_POST["notes"] . "Notes:" . "\r\n"
 	);
+
 	mail($to, $subject, $message);
 
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
