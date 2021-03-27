@@ -10,13 +10,13 @@
 
 	$to = "example@example.com";
 	$subject =  $name . "הודעת אימייל חדשה מאת: ";
-	$message = $name . "שם: " . "\r\n"
-		. $email . "אימייל: " . "\r\n"
-		. $phone . "טלפון: " . "\r\n"
-		. $topic . "פנייה בנושא: " . "\r\n"
-		. $date . "יום רצוי לפגישה מרחוק (אם יש): " . "\r\n"
-		. $time . "שעה רצויה לפגישה מרחוק (אם יש):" . "\r\n"
-		. $notes . "הערות (אם יש):" . "\r\n"; # Note the semicolon before this comment;
+	$message = . "שם: " . $name . "\r\n"
+		. "אימייל: . $email . " . "\r\n"
+		. "טלפון: " . $phone . "\r\n"
+		. "פנייה בנושא: " . $topic . "\r\n"
+		. "יום רצוי לפגישה מרחוק (אם יש): " . $date . "\r\n"
+		. "שעה רצויה לפגישה מרחוק (אם יש):" . $time . "\r\n"
+		. "הערות (אם יש):" . $notes . "\r\n"; # semicolon before this comment;
 
 	mail($to, $subject, $message);
 	header('Content-Type: text/html; charset=utf-8');
