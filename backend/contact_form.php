@@ -10,5 +10,5 @@
 		. $notes = $_POST["notes"] . "Notes:" . "\r\n"; # Note the semicolon before this comment;
 
 	mail($to, $subject, $message);
-	header(Content-Type: text/html; charset=utf-8);
+	header('Content-Type: text/html; charset=utf-8');
 ?>
