@@ -1,7 +1,4 @@
 <?php
-	$contact_form_url="";
-	$contact_form_success_url="";
-
 	$to = "example@example.com";
 	$subject = "New email message";
 	$message = $name = $_POST["name"] . "Name:" . "\r\n"
@@ -13,9 +10,4 @@
 		. $notes = $_POST["notes"] . "Notes:" . "\r\n"; # Note the semicolon before this comment;
 
 	mail($to, $subject, $message);
-
-	# if ($_SERVER['REQUEST_METHOD'] == 'POST') {
- 		# header("Location: $contact_form_success_url");
-		# exit;
-	# }
 ?>
