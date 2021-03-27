@@ -1,4 +1,4 @@
-Either copy-paste-exectuee the following, or make the following a shell alias or a shell function (most likely exported):
+One could use the following pattern (after editing it) to call `install.sh` of this remote program:
 
 ```shell
 (
@@ -9,4 +9,5 @@ rm install.sh
 )
 ```
 
-Ensure to change USER/PROJECT/BRANCH accordingly.
+After proper editing --- copying-pasting-executing in terminal is a nice way and a global alias/function call from terminal might be even nicer.
+
