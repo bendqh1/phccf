@@ -23,9 +23,6 @@ I recommend to do a non Git installation, directly from a shell, either by copy-
 
 ## Notes
 
-* The user's email address should be setted at `contact_form.php` (install.sh prompts about that);
+* A user's *local email box address* should be setted at `contact_form.php`; install.sh prompts about that with a loop;
+* In the aforementioned loop, instead the second `break` can come `exit` but this will also terminate the window so I stayed with `break`;
 * I recommend to double ensure that any PHP file is not accessible by a browser, to prevent an hardcoded email address from being leaked to spambots.
-* In the loop, instead the second `break` can come `exit` but this will also terminate the window.
-* In the `curl` command:
-  * `-L` is to follow a redirection in which case happens
-  * `-O` is to keep the remote name (instead getting a generic file name such as `archive`).
