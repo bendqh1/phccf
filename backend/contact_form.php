@@ -11,7 +11,7 @@
 
 	$subject = 'הודעת אימייל חדשה מאת: ' . $name;
 	
-	$message = '
+	$message = <<<LABEL
 	<html>
 		<body dir="rtl" style="text-align: right;">
 			<b>שם: </b> $name <br>
@@ -24,6 +24,7 @@
 		</body>
 	</html>
 	';
+	LABEL;
 
 	$headers[] = 'MIME-Version: 1.0';
 	$headers[] = 'Content-type: text/html; charset=utf-8';
