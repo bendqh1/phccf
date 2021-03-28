@@ -9,9 +9,9 @@ This program requires:
 * A well configured *DNS records hosting*
 * A well configured *websites hosting* 
 * A well configured *website emails hosting* comprised by itself of:
-  * Local Email Server [LES] such as *Postfix*
-  * Local Email Protocoler (LEP) such as *Dovecot*
-  * Local Email Client (LEC) such as *Roundcube*
+  * Local Email Server (**LES**) such as *Postfix*
+  * Local Email Protocoler (**LEP**) such as *Dovecot*
+  * Local Email Client (**LEC**) such as *Roundcube*
 
 ## Language
 
