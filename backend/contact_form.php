@@ -10,13 +10,15 @@
 	$to = "example@example.com";
 	$subject = "הודעת אימייל חדשה מאת: " . $name;
 
-	$message = echo "<b>שם: </b>" . $name . "\r\n"
-		. echo "<b>אימייל: </b>" . $email . "\r\n"
-		. echo "<b>טלפון: </b>" . $phone . "\r\n"
-		. echo "<b>פנייה בנושא: </b>" . $topic . "\r\n"
-		. echo "<b>יום רצוי לפגישה מרחוק (אם יש): </b>" . $date . "\r\n"
-		. echo "<b>שעה רצויה לפגישה מרחוק (אם יש): </b>" . $time . "\r\n"
-		. echo "<b>הערות (אם יש): </b>" . $notes . "\r\n";
+	$message = "<html><body>";
+	$message .= "<br>שם: </b>" . $name . "\r\n"
+		. "<br>אימייל: </b>" . $email . "\r\n"
+		. "<br>טלפון: </b>" . $phone . "\r\n"
+		. "<br>פנייה בנושא: </b>" . $topic . "\r\n"
+		. "<br>יום רצוי לפגישה מרחוק (אם יש): </b>" . $date . "\r\n"
+		. "<br>שעה רצויה לפגישה מרחוק (אם יש): </b>" . $time . "\r\n"
+		. "<br>הערות (אם יש): </b>" . $notes . "\r\n";
+	$message .= "</body></html>";
 
 	mail($to, $subject, $message);
 	header('Content-Type: text/html; charset=utf-8');
