@@ -9,7 +9,7 @@
 
 	$to = "example@example.com";
 	$subject =  $name . "הודעת אימייל חדשה מאת: ";
-	$message = . "שם: " . $name . "\r\n"
+	$message = "שם: " . $name . "\r\n"
 		. "אימייל: . $email . " . "\r\n"
 		. "טלפון: " . $phone . "\r\n"
 		. "פנייה בנושא: " . $topic . "\r\n"
