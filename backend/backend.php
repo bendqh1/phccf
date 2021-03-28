@@ -21,7 +21,6 @@
 				font-size: 18px;
 			}
 			.form_output_col_1 {
-				display: inline;
 				font-weight: bold;
 			}
 			.form_output_col_1:after {
@@ -30,14 +29,14 @@
 			</style>
 		</head>
 		<body dir="rtl" style="text-align: right;">
-			<p class="form_output_col_1">שם</p><p class="form_output_col_2">$name</p>
-			<p class="form_output_col_1">אימייל</p><p dir="ltr" class="form_output_col_2">$email</p>
-			<p class="form_output_col_1">טלפון</p><p dir="ltr" class="form_output_col_2">$phone</p>
-			<p class="form_output_col_1">פנייה בנושא<p class="form_output_col_2">$topic</p>
-			<p class="form_output_col_1">דומיין אתר (אם יש)</p><p dir="ltr" class="form_output_col_2">$url</p>
-			<p class="form_output_col_1">יום רצוי לפגישה מרחוק (אם יש)</p><p class="form_output_col_2">$date</p>
-			<p class="form_output_col_1">שעה רצויה לפגישה מרחוק (אם יש)</p><p class="form_output_col_2">$time</p>
-			<p class="form_output_col_1">הערות (אם יש)</p><p class="form_output_col_2">$notes</p>
+			<span class="form_output_col_1">שם</span><span class="form_output_col_2">$name</span>
+			<span class="form_output_col_1">אימייל</span><span dir="ltr" class="form_output_col_2">$email</span>
+			<span class="form_output_col_1">טלפון</span><span dir="ltr" class="form_output_col_2">$phone</span>
+			<span class="form_output_col_1">פנייה בנושא<span class="form_output_col_2">$topic</span>
+			<span class="form_output_col_1">דומיין אתר (אם יש)</span><span dir="ltr" class="form_output_col_2">$url</span>
+			<span class="form_output_col_1">יום רצוי לפגישה מרחוק (אם יש)</span><span class="form_output_col_2">$date</span>
+			<span class="form_output_col_1">שעה רצויה לפגישה מרחוק (אם יש)</span><span class="form_output_col_2">$time</span>
+			<span class="form_output_col_1">הערות (אם יש)</span><span class="form_output_col_2">$notes</span>
 		</body>
 	</html>
 	LABEL;
