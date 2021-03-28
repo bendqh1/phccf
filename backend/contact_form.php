@@ -14,13 +14,13 @@
 	$message = '
 	<html>
 		<body dir="rtl" style="text-align: right;">
-			<b>שם: </b> <?php. $name .?> <br>
-			<b>אימייל: </b> <?php. $email .?> <br>
-			<b>טלפון: </b> <?php. $phone .?> <br>
-			<b>פנייה בנושא: </b> <?php. $topic .?> <br>
-			<b>יום רצוי לפגישה מרחוק (אם יש): </b> <?php. $date .?> <br>
-			<b>שעה רצויה לפגישה מרחוק (אם יש): </b> <?php. $time .?> <br>
-			<b>הערות (אם יש): </b> <?php. $notes .?> <br>
+			<b>שם: </b> <?php $name; ?> <br>
+			<b>אימייל: </b> <?php $email; ?> <br>
+			<b>טלפון: </b> <?php $phone; ?> <br>
+			<b>פנייה בנושא: </b> <?php $topic; ?> <br>
+			<b>יום רצוי לפגישה מרחוק (אם יש): </b> <?php $date; ?> <br>
+			<b>שעה רצויה לפגישה מרחוק (אם יש): </b> <?php $time; ?> <br>
+			<b>הערות (אם יש): </b> <?php $notes; ?> <br>
 		</body>
 	</html>
 	';
