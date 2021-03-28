@@ -1,9 +1,10 @@
 <?php
 	$name = $_POST['name'];
 	$email = $_POST['email'];
-	$phone = $_POST['url'];
+	$phone = $_POST['phone'];
 	$phone = $_POST['phone'];
 	$topic = $_POST['topic'];
+	$url = $_POST['url'];
 	$date = $_POST['date'];
 	$time = $_POST['time'];
 	$notes = $_POST['notes'];
