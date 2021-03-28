@@ -14,7 +14,6 @@
 	$message = '
 	<html>
 		<body dir="rtl" style="text-align: right;">
-		<input type="hidden" name="type" value="<?= $name ?>" >
 			<b>שם: </b> $name <br>
 			<b>אימייל: </b> $email <br>
 			<b>טלפון: </b> $phone <br>
@@ -24,6 +23,10 @@
 			<b>הערות (אם יש): </b> $notes <br>
 		</body>
 	</html>
+	';
+
+	$message = ' 
+	<body dir="rtl" style="text-align: right;"><b>שם: </b></body></html> $name;
 	';
 
 	$headers[] = 'MIME-Version: 1.0';
