@@ -15,7 +15,14 @@
 	$message = <<<LABEL
 	<html>
 		<head>
-			<link rel="stylesheet" href="backend.css"></link>
+			<style>
+			.form_output_col_1 {
+				font-weight: bold;
+			}
+			.form_output_col_1:after {
+				content:": "
+			}
+			</style>
 		</head>
 		<body dir="rtl" style="text-align: right;">
 			<p class="form_output_col_1">שם</p><p class="form_output_col_2">$name</p>
