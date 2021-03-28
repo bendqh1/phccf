@@ -8,14 +8,14 @@
 	$notes = $_POST["notes"];
 
 	$to = "example@example.com";
-	$subject =  $name . "הודעת אימייל חדשה מאת: ";
+	$subject = "הודעת אימייל חדשה מאת: " . $name;
 	$message = "שם: " . $name . "\r\n"
-		. "אימייל: . $email . " . "\r\n"
+		. "אימייל: " . $email . "\r\n"
 		. "טלפון: " . $phone . "\r\n"
 		. "פנייה בנושא: " . $topic . "\r\n"
 		. "יום רצוי לפגישה מרחוק (אם יש): " . $date . "\r\n"
 		. "שעה רצויה לפגישה מרחוק (אם יש):" . $time . "\r\n"
-		. "הערות (אם יש):" . $notes . "\r\n"; # semicolon before this comment;
+		. "הערות (אם יש):" . $notes . "\r\n";
 
 	mail($to, $subject, $message);
 	header('Content-Type: text/html; charset=utf-8');
