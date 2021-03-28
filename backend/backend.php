@@ -32,7 +32,8 @@
 			<div><span class="form_output_col_1">שם</span><span class="form_output_col_2">$name</span><div>
 			<div><span class="form_output_col_1">אימייל</span><span dir="ltr" class="form_output_col_2">$email</span></div>
 			<div><span class="form_output_col_1">טלפון</span><span dir="ltr" class="form_output_col_2">$phone</span></div>
-			<div><span id="form_output_topic" class="form_output_col_1">נושא הפנייה<span class="form_output_col_2">$topic</span></div>
+			<div><span id="form_output_topic" class="form_output_col_1">נושא הפנייה: <span class="form_output_col_2">$topic</span></div>
+			<!-- For some reason, the automatic colon addition isn't applicable for the above date field so I just added a colon and a space directly; -->
 			<div><span class="form_output_col_1">דומיין אתר (אם יש)</span><span dir="ltr" class="form_output_col_2">$url</span></div>
 			<div><span class="form_output_col_1">יום רצוי לפגישה מרחוק (אם יש)</span><span class="form_output_col_2">$date</span></div>
 			<div><span class="form_output_col_1">שעה רצויה לפגישה מרחוק (אם יש)</span><span class="form_output_col_2">$time</span></div>
