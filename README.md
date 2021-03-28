@@ -1,16 +1,21 @@
 # PHP RTL Contact Form
 
-A CMS-agnostic backend-frontend simple contact form which is aimed solely for Right To Left (RTL) languages and allows appointment setting.
+A CMS-agnostic backend-frontend simple contact form for one recpient which is aimed solely for Right To Left (RTL) languages and allows appointment setting to allow service sale automation.
 
-It redundents the need in a remote email server (such as Gmail) accessible by a proxy such as sSMTP.
+## Software requirments
+
+This program requires:
+
+* A well configured *DNS records hosting*
+* A well configured *websites hosting* 
+* A well configured *website emails hosting* comprised by itself of:
+  * Local Email Server [LES] such as *Postfix*
+  * Local Email Protocoler (LEP) such as *Dovecot*
+  * Local Email Client (LEC) such as *Roundcube*
 
 ## Language
 
 It was originally designed in Hebrew but one should be able to change the Hebrew to any other RTL language.
-
-## Software requirments
-
-This program requires a well configured local email server (such as Postfix) to work.
 
 ## Installation
 
