@@ -1,7 +1,0 @@
-.form_output_col_1 {
-	font-weight: bold;
-}
-
-.form_output_col_1:after {
-	content:": "
-}
