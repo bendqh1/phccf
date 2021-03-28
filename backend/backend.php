@@ -33,7 +33,7 @@
 			<p class="form_output_col_1">אימייל</p><p dir="ltr" class="form_output_col_2">$email</p>
 			<p class="form_output_col_1">טלפון</p><p dir="ltr" class="form_output_col_2">$phone</p>
 			<p class="form_output_col_1">פנייה בנושא<p class="form_output_col_2">$topic</p>
-			<p class="form_output_col_1">דומיין אתר (אםיש)</p><p class="form_output_col_2">$url</p>
+			<p class="form_output_col_1">דומיין אתר (אםיש)</p><p dir="ltr" class="form_output_col_2">$url</p>
 			<p class="form_output_col_1">יום רצוי לפגישה מרחוק (אם יש)</p><p class="form_output_col_2">$date</p>
 			<p class="form_output_col_1">שעה רצויה לפגישה מרחוק (אם יש)</p><p class="form_output_col_2">$time</p>
 			<p class="form_output_col_1">הערות (אם יש)</p><p class="form_output_col_2">$notes</p>
