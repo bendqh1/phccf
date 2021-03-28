@@ -14,16 +14,15 @@
 	$message = <<<LABEL
 	<html>
 		<body dir="rtl" style="text-align: right;">
-			<b>שם: </b> $name <br>
-			<b>אימייל: </b> $email <br>
-			<b>טלפון: </b> $phone <br>
-			<b>פנייה בנושא: </b> $topic <br>
-			<b>יום רצוי לפגישה מרחוק (אם יש): </b> $date <br>
-			<b>שעה רצויה לפגישה מרחוק (אם יש): </b> $time <br>
-			<b>הערות (אם יש): </b> $notes <br>
+			<p class="form_output_col_1">שם</p><p class="form_output_col_2">$name</p>
+			<p class="form_output_col_1">אימייל:</p><p class="form_output_col_2">$email</p>
+			<p class="form_output_col_1">טלפון: </p><p class="form_output_col_2">$phone</p>
+			<p class="form_output_col_1">פנייה בנושא:<p class="form_output_col_2">$topic</p>
+			<p class="form_output_col_1">יום רצוי לפגישה מרחוק (אם יש):</p><p class="form_output_col_2">$date</p>
+			<p class="form_output_col_1">שעה רצויה לפגישה מרחוק (אם יש):</p><p class="form_output_col_2">$time</p>
+			<p class="form_output_col_1">הערות (אם יש):</p><p class="form_output_col_2">$notes</p>
 		</body>
 	</html>
-	';
 	LABEL;
 
 	$headers[] = 'MIME-Version: 1.0';
