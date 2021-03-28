@@ -21,8 +21,8 @@
 	$message .= '<b>יום רצוי לפגישה מרחוק (אם יש): </b>' . $date . '\r\n'
 	$message .= '<b>שעה רצויה לפגישה מרחוק (אם יש): </b>' . $time . '\r\n'
 	$message .= '<b>הערות (אם יש): </b>' . $notes . '\r\n';
-	$message .= </body>
-	$message .= </html>
+	$message .= '</body>'
+	$message .= '</html>'
 	';
 
 	mail($to, $subject, $message);
