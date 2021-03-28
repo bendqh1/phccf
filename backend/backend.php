@@ -29,14 +29,14 @@
 			</style>
 		</head>
 		<body dir="rtl" style="text-align: right;">
-			<span class="form_output_col_1">שם</span><span class="form_output_col_2">$name</span>
-			<span class="form_output_col_1">אימייל</span><span dir="ltr" class="form_output_col_2">$email</span>
-			<span class="form_output_col_1">טלפון</span><span dir="ltr" class="form_output_col_2">$phone</span>
-			<span class="form_output_col_1">פנייה בנושא<span class="form_output_col_2">$topic</span>
-			<span class="form_output_col_1">דומיין אתר (אם יש)</span><span dir="ltr" class="form_output_col_2">$url</span>
-			<span class="form_output_col_1">יום רצוי לפגישה מרחוק (אם יש)</span><span class="form_output_col_2">$date</span>
-			<span class="form_output_col_1">שעה רצויה לפגישה מרחוק (אם יש)</span><span class="form_output_col_2">$time</span>
-			<span class="form_output_col_1">הערות (אם יש)</span><span class="form_output_col_2">$notes</span>
+			<div><span class="form_output_col_1">שם</span><span class="form_output_col_2">$name</span><div>
+			<div><span class="form_output_col_1">אימייל</span><span dir="ltr" class="form_output_col_2">$email</span></div>
+			<div><span class="form_output_col_1">טלפון</span><span dir="ltr" class="form_output_col_2">$phone</span></div>
+			<div><span class="form_output_col_1">פנייה בנושא<span class="form_output_col_2">$topic</span></div>
+			<div><span class="form_output_col_1">דומיין אתר (אם יש)</span><span dir="ltr" class="form_output_col_2">$url</span></div>
+			<div><span class="form_output_col_1">יום רצוי לפגישה מרחוק (אם יש)</span><span class="form_output_col_2">$date</span></div>
+			<div><span class="form_output_col_1">שעה רצויה לפגישה מרחוק (אם יש)</span><span class="form_output_col_2">$time</span></div>
+			<div><span class="form_output_col_1">הערות (אם יש)</span><span class="form_output_col_2">$notes</span></div>
 		</body>
 	</html>
 	LABEL;
