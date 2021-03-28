@@ -18,7 +18,7 @@
 		<head>
 			<style>
 			* {
-				font-size: 18px;
+				font-size: 20px;
 			}
 			.form_output_col_1 {
 				font-weight: bold;
