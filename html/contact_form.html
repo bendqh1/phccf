@@ -3,13 +3,13 @@
 	<head>
 		<title>יצירת קשר</title>
 		<meta charset="utf-8">
-		<script type="text/javascript" src="prcf-main/frontend/contact_form.js"></script>
-		<link rel="stylesheet" href="prcf-main/frontend/contact_form.css" type="text/css"></link>
+		<script type="text/javascript" src="prcf-main/frontend/frontend.js"></script>
+		<link rel="stylesheet" href="prcf-main/frontend/frontend.css" type="text/css"></link>
 		<!-- Normally scripts comes under the <body> tag but for a contact form file here is also fine -->
 	</head>
 	<body>
 		<div id="formParent">
-			<form dir="rtl" lang="he" id="contact_form" class="general_structure" action="prcf-main/backend/contact_form.php" method="POST" onsubmit="replace()">
+			<form dir="rtl" lang="he" id="contact_form" class="general_structure" action="prcf-main/backend/backend.php" method="POST" onsubmit="replace()">
 				<div id="formChild">
 					<div><span><label for="name" id="cf_label_name">שם</label></span><span class="required">*</span></div>
 					<input type="text" name="name" id="cf_input_name" required></input>
