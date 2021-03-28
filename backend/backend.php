@@ -18,13 +18,15 @@
 			<style>
 			* {
 				font-size: 18px;
-				display: inline-block;
 			}
 			.form_output_col_1 {
 				font-weight: bold;
 			}
 			.form_output_col_1:after {
 				content:": "
+			}
+			.form_output_col_2 {
+				display: inline;
 			}
 			</style>
 		</head>
