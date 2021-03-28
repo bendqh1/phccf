@@ -8,6 +8,3 @@ source install.sh
 rm install.sh
 )
 ```
-
-After proper editing --- copying-pasting-executing in terminal is a nice way and a global alias/function call from terminal might be even nicer.
-
