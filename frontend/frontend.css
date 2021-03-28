@@ -35,7 +35,7 @@ input:last-child {
 }
 
 select, option {
-  direction: rtl; 
+  text-align: right;
 }
 
 #cf_input_submit {
