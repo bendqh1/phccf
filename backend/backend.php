@@ -20,13 +20,11 @@
 				font-size: 18px;
 			}
 			.form_output_col_1 {
+				display: inline;
 				font-weight: bold;
 			}
 			.form_output_col_1:after {
 				content:": "
-			}
-			.form_output_col_2 {
-				display: inline;
 			}
 			</style>
 		</head>
