@@ -10,15 +10,13 @@
 	$to = "example@example.com";
 	$subject = "הודעת אימייל חדשה מאת: " . $name;
 
-	$message = "<html><body>";
-	$message .= "<b>שם: </b>" . $name . "\r\n"
-		. "<b>אימייל: </b>" . $email . "\r\n"
-		. "<b>טלפון: </b>" . $phone . "\r\n"
-		. "<b>פנייה בנושא: </b>" . $topic . "\r\n"
-		. "<b>יום רצוי לפגישה מרחוק (אם יש): </b>" . $date . "\r\n"
-		. "<b>שעה רצויה לפגישה מרחוק (אם יש): </b>" . $time . "\r\n"
-		. "<b>הערות (אם יש): </b>" . $notes . "\r\n";
-	$message .= "</body></html>";
+	$message .= "שם: " . $name . "\r\n"
+		. "אימייל: " . $email . "\r\n"
+		. "טלפון: " . $phone . "\r\n"
+		. "פנייה בנושא: " . $topic . "\r\n"
+		. "יום רצוי לפגישה מרחוק (אם יש): " . $date . "\r\n"
+		. "שעה רצויה לפגישה מרחוק (אם יש): " . $time . "\r\n"
+		. "הערות (אם יש): " . $notes . "\r\n";
 
 	mail($to, $subject, $message);
 	header('Content-Type: text/html; charset=utf-8');
