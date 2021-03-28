@@ -1,6 +1,7 @@
 <?php
 	$name = $_POST['name'];
 	$email = $_POST['email'];
+	$phone = $_POST['url'];
 	$phone = $_POST['phone'];
 	$topic = $_POST['topic'];
 	$date = $_POST['date'];
@@ -16,6 +17,7 @@
 		<body dir="rtl" style="text-align: right;">
 			<p class="form_output_col_1">שם</p><p class="form_output_col_2">$name</p>
 			<p class="form_output_col_1">אימייל:</p><p class="form_output_col_2">$email</p>
+			<p class="form_output_col_1">דומיין אתר (אםיש): </p><p class="form_output_col_2">$url</p>
 			<p class="form_output_col_1">טלפון: </p><p class="form_output_col_2">$phone</p>
 			<p class="form_output_col_1">פנייה בנושא:<p class="form_output_col_2">$topic</p>
 			<p class="form_output_col_1">יום רצוי לפגישה מרחוק (אם יש):</p><p class="form_output_col_2">$date</p>
