@@ -34,6 +34,10 @@ input:last-child {
   margin-bottom: 0;
 }
 
+select, option {
+  direction: rtl; 
+}
+
 #cf_input_submit {
   width: 100%;
   background-color: green;
