@@ -15,7 +15,7 @@
 	$message = <<<LABEL
 	<html>
 		<head>
-			<link rel="stylesheet" href="prcf-main/backend/backend.css" type="text/css"></link>
+			<link rel="stylesheet" href="backend.css"></link>
 		</head>
 		<body dir="rtl" style="text-align: right;">
 			<p class="form_output_col_1">שם</p><p class="form_output_col_2">$name</p>
