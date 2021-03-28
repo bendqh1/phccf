@@ -8,3 +8,5 @@ source install.sh
 rm install.sh
 )
 ```
+
+After installing (or upgrading) one should edit the PHP file for its email.
