@@ -13,9 +13,6 @@
 	
 	$message = '
 	<html>
-		<head>
-  			<title>RTL contact form message</title>
-		</head>
 		<body dir="rtl" style="text-align: right;">
 			<b>שם: </b> . $name . <br>
 			<b>אימייל: </b> . $email . <br>
