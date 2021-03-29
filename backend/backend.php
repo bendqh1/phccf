@@ -15,19 +15,6 @@
 	
 	$message = <<<LABEL
 	<html>
-		<head>
-			<style>
-			* {
-				font-size: 20px;
-			}
-			.form_output_col_1 {
-				font-weight: bold;
-			}
-			.form_output_col_1:not(#form_output_topic):after {
-				content:": "
-			}
-			</style>
-		</head>
 		<body dir="rtl" style="text-align: right;">
 			<div><span class="form_output_col_1">שם</span><span class="form_output_col_2">$name</span><div>
 			<div><span class="form_output_col_1">אימייל</span><span dir="ltr" class="form_output_col_2">$email</span></div>
