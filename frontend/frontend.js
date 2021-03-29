@@ -1,8 +1,12 @@
 // Select contact form
 const contactForm = document.querySelector("#contact_form");
 
+//--------------------------------------------------------------//
+
 // Prevent default form behavior
 contactForm.addEventListener("submit", event.preventDefault() );
+
+//--------------------------------------------------------------//
 
 // Construct an HTTP request
 var xhr = new XMLHttpRequest();
