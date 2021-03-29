@@ -8,4 +8,4 @@ setTimeout( ()=> {
 		xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 		xhr.send();
 	});
-}, 1000);
+}, 5000);
