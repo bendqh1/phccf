@@ -1,5 +1,7 @@
 console.log("frontend.js is loaded indeed");
 
+/*
+
 let contactForm = document.querySelector("#contact_form")
 contactForm.addEventListener("submit", function(event){
 	event.preventDefault()
@@ -9,3 +11,5 @@ contactForm.addEventListener("submit", function(event){
 	xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 	xhr.send();
 });
+
+*/
