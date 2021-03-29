@@ -25,6 +25,10 @@
   border-radius: 25px;
 }
 
+.cf_elements input:last-child {
+   margin-bottom: 0 !important;
+}
+
 .cf_elements input:hover, .cf_elements select:hover, .cf_elements input:focus, .cf_elements select:focus {
   border-color: green; 
 }
