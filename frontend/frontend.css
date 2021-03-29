@@ -1,4 +1,4 @@
-.contact_form {
+.cf_elements {
   width: 304px;
   min-height: 500px;
   margin: 0 auto 0;
@@ -8,28 +8,28 @@
   font-size: 1em;
 }
 
-#contact_form label {
+.cf_elements label {
   font-weight: bold;
 }
-#contact_form label:after {
+.cf_elements label:after {
   content:":";
 }
-#contact_form .required {
+.cf_elements .required {
   color: red;
 }
 
-#contact_form input, #contact_form select {
+.cf_elements input, .cf_elements select {
   margin-top: 10px !important;
   margin-bottom: 25px !important;
   border: 2px solid initial;
   border-radius: 25px;
 }
 
-#contact_form input:hover, #contact_formselect:hover, #contact_form input:focus, #contact_form select:focus {
+.cf_elements input:hover, .cf_elements select:hover, .cf_elements input:focus, .cf_elements select:focus {
   border-color: green; 
 }
 
-#contact_form input:last-child {
+.cf_elementsinput:last-child {
   margin-top: 0;
   margin-bottom: 0;
 }
