@@ -59,6 +59,11 @@
   background-color: green;
 }
 
+#cf_input_topic {
+  width: 100;
+  white-space: initial;
+}
+
 #cf_input_topic, #cf_input_date, #cf_input_time, #cf_input_submit {
   cursor: pointer;
 }
