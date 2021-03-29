@@ -1,4 +1,7 @@
+// Select contact form
 const contactForm = document.querySelector("#contact_form");
+
+// Prevent default form behavior
 contactForm.addEventListener("submit", event.preventDefault() );
 
 // Construct an HTTP request
@@ -10,7 +13,7 @@ xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 // Send the collected data as JSON
 xhr.send(JSON.stringify(data));
 
-// Callback function
+// XHR passed procedure
 xhr.onloadend = function (response) {
 	if (response.target.status === 0) {
 
