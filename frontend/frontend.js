@@ -1,3 +1,4 @@
+console.log("frontend.js is loaded indeed");
 
 let contactForm = document.querySelector("#contact_form")
 contactForm.addEventListener("submit", function(event){
