@@ -1,10 +1,8 @@
-// Select contact form and prevent its default behavior:
 let contactForm = document.querySelector("#contact_form")
 contactForm.addEventListener("submit", function(event){
   event.preventDefault()
 });
 
-// Construct an HTTP request
 var xhr = new XMLHttpRequest();
 xhr.open(form.method, form.action, true);
 xhr.setRequestHeader('Accept', 'application/json; charset=utf-8');
