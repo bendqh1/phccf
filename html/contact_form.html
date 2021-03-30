@@ -4,7 +4,7 @@
 		<title>יצירת קשר</title>
 		<meta charset="utf-8">
 		<script>
-			window.onload = function() {
+			window.addEventListener("load", function(){
 				document.querySelector("#contact_form").addEventListener("submit", function(event) {
 					event.preventDefault()
 					var xhr = new XMLHttpRequest();
@@ -27,7 +27,7 @@
 				formParent.appendChild(success);
 
 				*/
-			};
+			});
 		</script>
 		<link rel="stylesheet" href="prcf-main/frontend/frontend.css"></link>
 	</head>
