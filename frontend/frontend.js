@@ -1,5 +1,4 @@
-let contactForm = document.querySelector("#contact_form")
-contactForm.addEventListener("submit", function(event){
+document.querySelector("#contact_form").addEventListener("submit", function(event) {
 	event.preventDefault()
 	var xhr = new XMLHttpRequest();
 	xhr.open(contactForm.method, contactForm.action, true);
