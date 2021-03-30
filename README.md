@@ -23,5 +23,5 @@ I recommend to do a non Git installation, directly from a shell, either by copy-
 
 ## Notes
 
-* A user's *local email box address* should be setted at `contact_form.php`
+* A user's *local email box address* should be setted at the backend
 * One might want to ensure that any PHP file is not accessible by a browser, to prevent an hardcoded email address from being leaked to spambots
