@@ -69,6 +69,7 @@
 }
 
 #success {
+  min-height: 250px !important;
   font-size: 2em;
 }
 
