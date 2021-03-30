@@ -48,7 +48,7 @@
 	mail($to, $subject, $message, implode("\r\n", $headers));
 
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
- 		header("Location: $contact_form_success_webpage");
+ 		header('Location: $contact_form_success_webpage');
 		exit;
 	}
 
