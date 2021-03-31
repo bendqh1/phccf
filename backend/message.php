@@ -1,5 +1,5 @@
 <?php
-	<<<LABEL
+	$message = <<<LABEL
 		<html>
 			<head>
 				<style>
