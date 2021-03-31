@@ -70,7 +70,8 @@
 
 #success {
   min-height: 250px !important;
-  font-size: 2em;
+  font-size: 2em !important;
+  color: #000 !important;
 }
 
 /* NOTES */
