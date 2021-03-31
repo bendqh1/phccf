@@ -1,13 +1,10 @@
 .success_general_structure {
   width: 304px;
+  min-height: 250px;
   margin: 0 auto 0;
   padding: 25px;
   border: 2px solid green;
   border-radius: 25px;
-}
-
-#success {
-  min-height: 250px;
   font-size: 2em;
   color: #000;
 }
