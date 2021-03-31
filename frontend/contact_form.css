@@ -1,11 +1,14 @@
 .general_structure {
   width: 304px;
-  min-height: 500px;
   margin: 0 auto 0;
   padding: 25px;
   border: 2px solid green;
   border-radius: 25px;
   font-size: 1em;
+}
+
+#contact_form {
+    min-height: 500px;
 }
 
 .general_structure label {
