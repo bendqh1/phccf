@@ -41,12 +41,6 @@
   font-weight: bold;
 }
 
-#cf_input_submit:hover {
-  width: 100%;
-  background-color: green;
-  color: #fff;
-}
-
 #cf_input_submit:hover, #cf_input_submit:focus {
   background-color: lime;
 }
