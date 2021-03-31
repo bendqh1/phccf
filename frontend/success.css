@@ -1,6 +1,5 @@
 .general_structure {
   width: 304px;
-  min-height: 500px;
   margin: 0 auto 0;
   padding: 25px;
   border: 2px solid green;
@@ -9,7 +8,7 @@
 }
 
 #success {
-  min-height: 250px !important;
+  min-height: 250px;
   font-size: 2em !important;
   color: #000 !important;
 }
