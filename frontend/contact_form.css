@@ -8,32 +8,28 @@
   font-size: 1em;
 }
 
-.cf_elements label {
+.general_structure label {
   font-weight: bold;
 }
-.cf_elements label:after {
+.general_structure label:after {
   content:":";
 }
-.cf_elements .required {
+.general_structure .required {
   color: red;
 }
 
-.cf_elements input, .cf_elements select {
+.general_structure input, .general_structure select {
   margin-top: 10px !important;
   margin-bottom: 25px !important;
   border: 2px solid initial;
   border-radius: 25px;
 }
 
-.cf_elements input:last-child {
-   margin-bottom: 0 !important;
-}
-
-.cf_elements input:hover, .cf_elements select:hover, .cf_elements input:focus, .cf_elements select:focus {
+.general_structure input:hover, .general_structure select:hover, .general_structure input:focus, .general_structure select:focus {
   border-color: green; 
 }
 
-.cf_elementsinput:last-child {
+.general_structure input:last-child {
   margin-top: 0;
   margin-bottom: 0;
 }
