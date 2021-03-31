@@ -1,4 +1,4 @@
-.general_structure {
+.cf_general_structure {
   width: 304px;
   margin: 0 auto 0;
   padding: 25px;
@@ -7,28 +7,28 @@
   font-size: 1em;
 }
 
-.general_structure label {
+.cf_general_structure label {
   font-weight: bold;
 }
-.general_structure label:after {
+.cf_general_structure label:after {
   content:":";
 }
-.general_structure .required {
+.cf_general_structure .required {
   color: red;
 }
 
-.general_structure input, .general_structure select {
+.cf_general_structure input, .cf_general_structure select {
   margin-top: 10px !important;
   margin-bottom: 25px !important;
   border: 2px solid initial;
   border-radius: 25px;
 }
 
-.general_structure input:hover, .general_structure select:hover, .general_structure input:focus, .general_structure select:focus {
+.cf_general_structure input:hover, .cf_general_structure select:hover, .cf_general_structure input:focus, .cf_general_structure select:focus {
   border-color: green; 
 }
 
-.general_structure input:last-child {
+.cf_general_structure input:last-child {
   margin-top: 0;
   margin-bottom: 0;
 }
