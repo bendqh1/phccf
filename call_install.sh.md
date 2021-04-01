@@ -1,4 +1,4 @@
-One could use the following pattern (after editing it) to call `install.sh` of this remote program:
+One could use the following pattern (most likely, after proper configuration) to call `install.sh` of this remote program:
 
 ```shell
 (
@@ -9,4 +9,4 @@ rm install.sh
 )
 ```
 
-After installing (or upgrading) one should edit the PHP file for its email.
+After installing (or upgrading) one should edit the PHP file accordingly (email address and contact form success page).
