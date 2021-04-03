@@ -3,9 +3,9 @@
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$url = $_POST['url'];
-	$phone = $_POST['phone'];
 	$date = $_POST['date'];
 	$time = $_POST['time'];
+	$phone = $_POST['phone'];
 	$notes = $_POST['notes'];
 
 	$to = 'example@example.com';
