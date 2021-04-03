@@ -20,5 +20,4 @@
  		header('Location: $contact_form_success_webpage');
 		exit;
 	}
-
 ?>
