@@ -15,7 +15,7 @@
 				</style>
 			</head>
 			<body dir="rtl" style="text-align: right;">
-				<div><span class="form_output_col_1">נושא: <span class="form_output_col_2">$topic</span></div>
+				<div><span class="form_output_col_1">נושא: </span><span class="form_output_col_2">$topic</span></div>
 				<div><span class="form_output_col_1">שם: </span><span class="form_output_col_2">$name</span></div>
 				
 				<div><span class="form_output_col_1">אימייל: </span><a dir="ltr" href="mailto:$email" class="form_output_col_2">$email</a></div>
