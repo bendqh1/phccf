@@ -1,7 +1,7 @@
 <?php
-	$topic = $_POST['topic'];
-	$name = $_POST['name'];
-	$email = $_POST['email'];
+	$topic = $_POST['topic']; # Required;
+	$name = $_POST['name'];   # Required;
+	$email = $_POST['email']; # Required;
 
 	$url = $_POST['url'];
 	$phone = $_POST['phone'];
