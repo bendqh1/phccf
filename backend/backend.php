@@ -10,7 +10,7 @@
 	$notes = $_POST['notes'];
 
 	$to = 'example@example.com';
-	$subject = 'הודעת אימייל חדשה מאת: ' . $name;
+	$subject = 'הודעה חדשה מאת: ' . $name;
 	include 'message.php';
 
 	$headers[] = 'MIME-Version: 1.0';
