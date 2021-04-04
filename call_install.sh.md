@@ -9,4 +9,4 @@ rm install.sh
 )
 ```
 
-After installing (or upgrading) one should edit the PHP file accordingly (email address and contact form success page).
+After installing one should edit the PHP file accordingly (email address and contact form success page).
