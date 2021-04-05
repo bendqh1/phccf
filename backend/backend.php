@@ -3,7 +3,7 @@
 	$name = $_POST['name'];   # Required;
 	$email = $_POST['email']; # Required;
 
-	$url = $_POST['url'];
+	$url = $_POST['text']; # Text instead url to prevent obligating a user to add a protocol prefix such as http://|https:// ;
 	$phone = $_POST['phone'];
 
 	$date = $_POST['date'];
