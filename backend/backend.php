@@ -13,7 +13,6 @@
 	$to = 'example@example.com';
 	$subject = 'הודעה חדשה מאת: ' . $name;
 	include 'message.php';
-
 	$headers[] = 'MIME-Version: 1.0';
 	$headers[] = 'Content-type: text/html; charset=utf-8';
 	mail($to, $subject, $message, implode("\r\n", $headers));
