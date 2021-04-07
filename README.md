@@ -15,7 +15,7 @@ This program requires:
 
 ## Language
 
-It was originally designed in Hebrew but one should be able to change the Hebrew to any other RTL language such as Arabic, Aramaic, Persian/Farsi, Azeri, Urdu, Kurdish (Sorani), Dhivehi/Maldivian and probably more
+It was originally designed in Hebrew but one should be able to change the Hebrew to any other RTL language such as Arabic, Aramaic, Persian/Farsi, Azeri, Urdu, Kurdish (Sorani), Dhivehi/Maldivian and probably more.
 
 ## Installation
 
