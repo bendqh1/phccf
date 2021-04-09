@@ -19,7 +19,7 @@ It was originally designed in Hebrew but one should be able to change the Hebrew
 
 ## Installation
 
-I recommend to do a non Git installation, directly from a shell, either by copy-pasting or by `wget`ing and `source`ing a local version (but first anyway by copy-pasting becuase I clue there about a `${website_dir}` variable than can ease loading the script remotely which is especially relvant if you have just one website directory per system).
+I personally do non-Git installations directly from a shell by calling install.sh (after **`cd` WEBSITE DIRECTORY**)` and then expanding variables in `contact_form.php`.
 
 ## Notes
 
