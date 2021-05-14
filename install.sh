@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd WEBSITE_DIR && # Web Application Root directory comes here, instead "WEBSITE_DIR";
+cd "${website_dir}" && # Web Application Root directory comes here per global variable in, say, .bashrc
 rm -rf prcf-main &&
 curl -L -O https://github.com/bendqh1/prcf/archive/main.zip &&
 unzip main.zip &&
