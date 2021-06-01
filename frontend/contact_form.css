@@ -43,10 +43,6 @@
   cursor: pointer;
 }
 
-#cf_input_topic, #cf_input_name, #cf_input_email, #cf_input_phone, #cf_input_website, #cf_input_notes {
-  width: 100%; 
-}
-
 #cf_input_topic {
   white-space: initial;
 }
