@@ -10,34 +10,34 @@
 		<div id="formParent">
 			<form dir="rtl" lang="he" id="contact_form" class="cf_general_structure" action="prcf-main/backend/contact_form.php" method="POST">
 				<div id="formChild">
-					<div><label for="topic" id="cf_label_topic">פנייה בנושא</label></div>
+					<div><label for="cf_input_topic" id="cf_label_topic">פנייה בנושא</label></div>
 					<select name="topic" id="cf_input_topic">
-						<option value="אבחון קידום אתרים (כמפורט במחירון)">אבחון קידום אתרים (כמפורט במחירון)</option>
-						<option value="שיווק באמצעות תוכן (כמפורט במחירון)">שיווק באמצעות תוכן (כמפורט במחירון)</option>
-						<option value="פיתוח קישורים (כמפורט במחירון)">פיתוח קישורים (כמפורט במחירון)</option>
-						<option value="ייעוץ והדרכה (כמפורט במחירון)">ייעוץ והדרכה (כמפורט במחירון)</option>
+						<option value="אבחון קידום אתרים">אבחון קידום אתרים (כמפורט במחירון)</option>
+						<option value="שיווק באמצעות תוכן">שיווק באמצעות תוכן (כמפורט במחירון)</option>
+						<option value="פיתוח קישורים">פיתוח קישורים (כמפורט במחירון)</option>
+						<option value="ייעוץ והדרכה">ייעוץ והדרכה (כמפורט במחירון)</option>
 						<option value="נגישות">נגישות</option>
 					</select>
 
-					<div><span><label for="name" id="cf_label_name">שם</label></span><span class="required">*</span></div>
+					<div><span><label for="cf_input_name" id="cf_label_name">שם</label></span><span class="required">*</span></div>
 					<input type="text" name="name" id="cf_input_name" required></input> <!-- required property-->
 
-					<div><span><label for="email" id="cf_label_email">כתובת אימייל</label></span><span class="required">*</span></div>
+					<div><span><label for="cf_input_email" id="cf_label_email">כתובת אימייל</label></span><span class="required">*</span></div>
 					<input type="email" dir="ltr" name="email" required id="cf_input_email"></input> <!-- required property-->
 
-					<div><label for="url" id="cf_label_url">דומיין אתר (אם יש)</label></div>
+					<div><label for="cf_input_url" id="cf_label_url">אתר לקידום (אם יש)</label></div>
 					<input type="text" dir="ltr" name="url" id="cf_input_url"></input>
 
-					<div><label for="phone" id="cf_label_phone">מספר טלפון (אם יש)</label></div>
+					<div><label for="cf_input_phone" id="cf_label_phone">מספר טלפון (אם יש)</label></div>
 					<input type="tel" dir="ltr" name="phone" id="cf_input_phone"></input>
 
-					<div><label for="date" id="cf_label_date">יום רצוי לפגישה מרחוק (אם יש)</label></div>
+					<div><label for="cf_input_date" id="cf_label_date">יום רצוי לפגישה מרחוק (אם יש)</label></div>
 					<input type="date" name="date" id="cf_input_date"></input>
 
-					<div><label for="time" id="cf_label_time">שעה רצויה לפגישה מרחוק (אם יש)</label></div>
+					<div><label for="cf_input_time" id="cf_label_time">שעה רצויה לפגישה מרחוק (אם יש)</label></div>
 					<input type="time" name="time" id="cf_input_time"></input>
 
-					<div><label for="notes" id="cf_label_notes">הערות (אם יש)</label></div>
+					<div><label for="cf_input_notes" id="cf_label_notes">הערות (אם יש)</label></div>
 					<input name="notes" type="text" id="cf_inpput_notes"></input>
 
 					<div><input type="submit" value="שליחה" id="cf_input_submit"></input></div>
