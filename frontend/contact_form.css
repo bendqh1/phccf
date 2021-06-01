@@ -14,7 +14,7 @@
   content:":";
 }
 .cf_general_structure .required {
-  color: red;
+  color: #b32424; /* Similar to Red but with contrast-ratio >= 4.50 (6.57) */
 }
 
 .cf_general_structure input, .cf_general_structure select {
