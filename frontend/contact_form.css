@@ -17,11 +17,13 @@
   color: #b32424; /* Similar to Red but with contrast-ratio >= 4.50 (6.57) on White backgrounds which is good for accessibility */
 }
 
-.cf_general_structure input, .cf_general_structure select {
-  margin-top: 10px !important;
-  margin-bottom: 25px !important;
-  border: 2px solid initial !important;
+#cf_input_topic, #cf_input_url {
+  width: 100% !important;
+  border: 2px solid #000 !important;
   border-radius: 25px !important;
+  margin: 10px 0 25px 0 !important;
+  font-size: 1em !important;
+  
 }
 
 .cf_general_structure input:hover, .cf_general_structure select:hover, .cf_general_structure input:focus, .cf_general_structure select:focus {
