@@ -54,19 +54,19 @@
 #cf_input_submit {
   background-color: green;
   font-weight: bold;
-  font-color: #fff;
+  color: #fff;
 }
 
 #cf_input_submit:focus {
-  font-color: #fff;
+  color: #fff;
 }
 
 #cf_input_submit:hover {
   background-color: lime;
-  font-color: #000;
+  color: #000;
 }
 
 #cf_input_submit:active {
   background-color: green;
-  font-color: #000;
+  color: #000;
 }
