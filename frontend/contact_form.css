@@ -55,12 +55,15 @@
   width: 100%;
   background-color: green;
   font-weight: bold;
+  font-color: #fff;
 }
 
 #cf_input_submit:hover, #cf_input_submit:focus {
   background-color: lime;
+  font-color: #000;
 }
 
 #cf_input_submit:active {
   background-color: green;
+  font-color: #000;
 }
