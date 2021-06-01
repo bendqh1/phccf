@@ -20,8 +20,8 @@
 .cf_general_structure input, .cf_general_structure select {
   margin-top: 10px !important;
   margin-bottom: 25px !important;
-  border: 2px solid initial;
-  border-radius: 25px;
+  border: 2px solid initial !important;
+  border-radius: 25px !important;
 }
 
 .cf_general_structure input:hover, .cf_general_structure select:hover, .cf_general_structure input:focus, .cf_general_structure select:focus {
@@ -31,6 +31,18 @@
 .cf_general_structure input:last-child {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+#cf_input_topic, #cf_input_date, #cf_input_time, #cf_input_submit {
+  cursor: pointer;
+}
+
+#cf_input_topic, #cf_input_name, #cf_input_email, #cf_input_phone, #cf_input_website, #cf_input_notes {
+  width: 100%; 
+}
+
+#cf_input_topic {
+  white-space: initial;
 }
 
 #cf_input_submit {
@@ -45,17 +57,4 @@
 
 #cf_input_submit:active {
   background-color: green;
-}
-
-#cf_input_topic {
-  width: 100%;
-  white-space: initial;
-}
-
-#cf_input_topic, #cf_input_date, #cf_input_time, #cf_input_submit {
-  cursor: pointer;
-}
-
-#cf_input_name, #cf_input_email, #cf_input_phone, #cf_input_website, #cf_input_notes {
-  width: 100%; 
 }
