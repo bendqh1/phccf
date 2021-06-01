@@ -27,8 +27,7 @@
   content:":";
 }
 .cf_general_structure .required {
-  content: " "
-  color: #b32424; /* Similar to Red but with contrast-ratio >= 4.50 (6.57) on White backgrounds which is good for accessibility */
+  color: red; /* #b32424 is similar to Red but with contrast-ratio >= 4.50 (6.57) on White backgrounds which is good for accessibility */
 }
 
 .cf_general_structure input:hover, .cf_general_structure select:hover, .cf_general_structure input:focus, .cf_general_structure select:focus {
