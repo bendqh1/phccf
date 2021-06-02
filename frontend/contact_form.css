@@ -4,7 +4,7 @@ form input {
 }
 
 #cf_form_child {
-  padding: 25px; 
+  padding: 25px !important; 
 }
 
 .cf_general_structure {
