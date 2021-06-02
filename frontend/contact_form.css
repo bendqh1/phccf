@@ -1,7 +1,6 @@
 .cf_general_structure {
   width: 304px;
   margin: 0 auto 0;
-  padding: 25px;
   border: 2px solid #000;
   border-radius: 25px;
   font-size: 1em;
@@ -12,7 +11,6 @@
   border: 2px solid #000;
   border-radius: 25px;
   margin: 10px 0 25px 0;
-  padding: 5.168px;
 }
 
 .cf_timing_fields {
@@ -52,7 +50,6 @@
   background-color: green;
   font-weight: bold;
   color: #fff;
-  width: 100%;
 }
 
 #cf_input_submit:focus {
