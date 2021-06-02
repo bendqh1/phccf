@@ -13,14 +13,14 @@
   border-radius: 25px;
   margin: 10px 0 25px 0;
   padding: 5.168px;
-  max-width: 289.664 !important;
+  max-width: 289.664px !important;
 }
 
 .cf_timing_fields {
   border: 2px solid #000;
   border-radius: 25px;
   margin: 10px 0 25px 0;
-  max-width: 289.664 !important;
+  max-width: 289.664px !important;
 }
  
 .cf_general_structure label {
@@ -54,6 +54,8 @@
   background-color: green;
   font-weight: bold;
   color: #fff;
+  width: 100%;
+  max-width: 289.664px !important;
 }
 
 #cf_input_submit:focus {
