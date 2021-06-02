@@ -3,10 +3,13 @@ form input {
   padding: 0 0 0 0;
 }
 
+.cf_form_child {
+  padding: 25px; 
+}
+
 .cf_general_structure {
   width: 304px;
   margin: 0 auto 0;
-  paddiing: 25px;
   border: 2px solid #000;
   border-radius: 25px;
   font-size: 1em;
