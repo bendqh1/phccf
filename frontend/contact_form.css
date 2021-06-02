@@ -1,3 +1,8 @@
+form input {
+  margin: 0 0 0 0 !important;
+  padding: 0 0 0 0 !important;
+}
+
 .cf_general_structure {
   width: 304px;
   margin: 0 auto 0;
