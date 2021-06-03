@@ -2,12 +2,12 @@
 	$topic = $_POST['topic']; # Required;
 	$name = $_POST['name'];   # Required;
 	$email = $_POST['email']; # Required;
-	$url = $_POST['url']; # Name attribute is "url" but input type is "text" because "url" obligates http:// or https:// which users normally don't input
+	$url = $_POST['url']; # Name attribute is "url" but input type is "text" because "url" obligates http:// or https:// which users normally don't input;
 
 	$phone = $_POST['phone'];
 	$date = $_POST['date'];
 	$time = $_POST['time'];
-	$notes = $_POST['notes'];
+	# $notes = $_POST['notes']; # Normally turned off to prevent spam;
 
 	$to = 'example@example.com';
 	$subject = 'הודעה חדשה מאת: ' . $name;
