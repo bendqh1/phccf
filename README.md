@@ -1,6 +1,6 @@
 # PHP RTL Contact Form
 
-A CMS-agnostic backend-frontend simple contact form for one recpient which is aimed solely for Right To Left (RTL) languages and allows appointment setting to allow service sale automation for freelancers or small enterprises (with normally one person handling emails).
+A CMS-agnostic backend-frontend simple contact form for one recpient which is aimed solely for Right To Left (RTL) languages and allows appointment setting to allow service sale automation for freelancers or SMEs (with normally one person handling emails).
 
 ## Software requirments
 
