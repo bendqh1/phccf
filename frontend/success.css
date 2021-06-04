@@ -1,9 +1,7 @@
 .success_message_wrapper {
   width: 304px;
-  min-height: 250px;
   margin: 0 auto 0;
-  padding: 25px;
-  border: 2px solid green;
+  border: 2px solid #000;
   border-radius: 25px;
-  color: #000;
+  font-size: 1em;
 }
