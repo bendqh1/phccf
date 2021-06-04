@@ -4,7 +4,13 @@ form input {
 }
 
 #prcf_form_child {
+  display: flex;
+  flex-direction: column;
   padding: 25px !important; 
+}
+
+.prcf_context {
+  width: 100%;
 }
 
 .prcf_general_structure {
@@ -75,4 +81,16 @@ form input {
 #prcf_input_submit:active {
   background-color: green;
   color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .prcf_general_structure {
+    width: 100%;
+  }
+  #prcf_form_child {
+    flex-direction: row;
+  }
+  .prcf_context {
+    width: 32%;
+  }
 }
