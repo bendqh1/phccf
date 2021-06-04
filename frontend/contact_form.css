@@ -63,6 +63,10 @@ form input {
   white-space: initial;
 }
 
+#prcf_submit_area {
+  padding: 25px;
+}
+
 #prcf_input_submit {
   background-color: green;
   font-weight: bold;
