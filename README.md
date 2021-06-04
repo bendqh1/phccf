@@ -1,6 +1,6 @@
-# PHP RTL Contact Form
+# PHP RtL Contact Form
 
-A CMS-agnostic backend-frontend simple contact form for one recpient which is aimed solely for Right To Left (RTL) languages and allows appointment setting to allow service sale automation (SSA) for freelancers or SMEs (with normally one person handling emails).
+A CMS-agnostic backend-frontend simple contact form for one recpient which is aimed solely for Right to Left (RtL) languages and allows appointment setting to allow service sale automation (SSA) for freelancers or SMEs (with normally one person handling emails).
 
 ## Software requirments
 
@@ -15,7 +15,7 @@ This program requires:
 
 ## Language
 
-It was originally designed in Hebrew but one should be able to change the Hebrew to any other RTL language such as Arabic, Aramaic, Persian/Farsi, Azeri, Urdu, Kurdish (Sorani), Dhivehi/Maldivian and probably more.
+It was originally designed in Hebrew but one should be able to change the Hebrew to any other RtL language such as Arabic, Aramaic, Persian/Farsi, Azeri, Urdu, Kurdish (Sorani), Dhivehi/Maldivian and probably more.
 
 ## Installation
 
