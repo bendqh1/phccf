@@ -3,11 +3,11 @@ form input {
   padding: 0 0 0 0;
 }
 
-#cf_form_child {
+#prcf_form_child {
   padding: 25px !important; 
 }
 
-.cf_general_structure {
+.prcf_general_structure {
   width: 304px;
   margin: 0 auto 0;
   border: 2px solid #000;
@@ -15,7 +15,7 @@ form input {
   font-size: 1em;
 }
 
-.cf_generally_any_field {
+.prcf_generally_any_field {
   width: 100%;
   border: 2px solid #000;
   border-radius: 25px;
@@ -23,56 +23,56 @@ form input {
   padding: 5px 0 5px 0;
 }
 
-.cf_timing_fields {
+.prcf_timing_fields {
   border: 2px solid #000;
   border-radius: 25px;
   margin: 10px 0 25px 0;
   padding: 5px 0 5px 0;
 }
  
-.cf_general_structure label {
+.prcf_general_structure label {
   font-weight: bold;
 }
-.cf_general_structure label:after {
+.prcf_general_structure label:after {
   content:":";
 }
-.cf_general_structure .required {
+.prcf_general_structure .required {
   color: red; /* #b32424 is similar to Red but with contrast-ratio >= 4.50 (6.57) on White backgrounds which is good for accessibility */
 }
 
-.cf_general_structure input:hover, .cf_general_structure select:hover, .cf_general_structure input:focus, .cf_general_structure select:focus {
+.prcf_general_structure input:hover, .prcf_general_structure select:hover, .prcf_general_structure input:focus, .prcf_general_structure select:focus {
   border-color: green; 
 }
 
-.cf_general_structure input:last-child {
+.prcf_general_structure input:last-child {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-#cf_input_topic, #cf_input_date, #cf_input_time, #cf_input_submit {
+#prcf_input_topic, #prcf_input_date, #prcf_input_time, #prcf_input_submit {
   cursor: pointer;
 }
 
-#cf_input_topic {
+#prcf_input_topic {
   white-space: initial;
 }
 
-#cf_input_submit {
+#prcf_input_submit {
   background-color: green;
   font-weight: bold;
   color: #fff;
 }
 
-#cf_input_submit:focus {
+#prcf_input_submit:focus {
   color: #fff;
 }
 
-#cf_input_submit:hover {
+#prcf_input_submit:hover {
   background-color: lime;
   color: #000;
 }
 
-#cf_input_submit:active {
+#prcf_input_submit:active {
   background-color: green;
   color: #fff;
 }
