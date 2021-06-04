@@ -9,35 +9,40 @@
 		<div id="prcf_form_parent">
 			<form dir="rtl" lang="he" id="contact_form" class="prcf_general_structure" action="prcf-main/backend/contact_form.php" method="POST">
 				<div id="prcf_form_child">
-					<div><label for="prcf_input_topic" id="prcf_label_topic">פנייה בנושא</label></div>
-					<select name="topic" id="prcf_input_topic" class="prcf_generally_any_field">
-						<option value="אבחון קידום אתרים">אבחון קידום אתרים</option>
-						<option value="שיווק באמצעות תוכן">שיווק באמצעות תוכן</option>
-						<option value="פיתוח קישורים">פיתוח קישורים</option>
-						<option value="ייעוץ והדרכה">ייעוץ והדרכה</option>
-						<option value="אחר">אחר</option>
-					</select>
+					<section id="prcf_section_1">
+						<div><label for="prcf_input_topic" id="prcf_label_topic">פנייה בנושא</label></div>
+						<select name="topic" id="prcf_input_topic" class="prcf_generally_any_field">
+							<option value="אבחון קידום אתרים">אבחון קידום אתרים</option>
+							<option value="שיווק באמצעות תוכן">שיווק באמצעות תוכן</option>
+							<option value="פיתוח קישורים">פיתוח קישורים</option>
+							<option value="ייעוץ והדרכה">ייעוץ והדרכה</option>
+							<option value="אחר">אחר</option>
+						</select>
+						<div><span><label for="prcf_input_name" id="prcf_label_name">שם</label></span><span class="required">*</span></div>
+						<input type="text" name="name" id="prcf_input_name" class="prcf_generally_any_field" required></input> <!-- required property-->
 
-					<div><span><label for="prcf_input_name" id="prcf_label_name">שם</label></span><span class="required">*</span></div>
-					<input type="text" name="name" id="prcf_input_name" class="prcf_generally_any_field" required></input> <!-- required property-->
+						<div><span><label for="prcf_input_email" id="prcf_label_email">כתובת אימייל</label></span><span class="required">*</span></div>
+						<input type="email" dir="ltr" name="email" id="prcf_input_email" class="prcf_generally_any_field" required></input> <!-- required property-->
+					</section>
 
-					<div><span><label for="prcf_input_email" id="prcf_label_email">כתובת אימייל</label></span><span class="required">*</span></div>
-					<input type="email" dir="ltr" name="email" id="prcf_input_email" class="prcf_generally_any_field" required></input> <!-- required property-->
+					<section id="prcf_section_2">
+						<div><label for="prcf_input_phone" id="prcf_label_phone">מספר טלפון (אם רלוונטי)</label></div>
+						<input type="tel" dir="ltr" name="phone" id="prcf_input_phone" class="prcf_generally_any_field"></input>
 
-					<div><label for="prcf_input_phone" id="prcf_label_phone">מספר טלפון (אם רלוונטי)</label></div>
-					<input type="tel" dir="ltr" name="phone" id="prcf_input_phone" class="prcf_generally_any_field"></input>
+						<div><label for="prcf_input_url" id="prcf_label_url">כתובת אתר אינטרנט (אם רלוונטי)</label></div>
+						<input type="text" dir="ltr" name="url" id="prcf_input_url" class="prcf_generally_any_field"></input>
 
-					<div><label for="prcf_input_url" id="prcf_label_url">כתובת אתר אינטרנט (אם רלוונטי)</label></div>
-					<input type="text" dir="ltr" name="url" id="prcf_input_url" class="prcf_generally_any_field"></input>
+						<div><label for="prcf_input_notes" id="prcf_label_notes">הערות (אם רלוונטי)</label></div>
+						<input name="notes" type="textarea" id="prcf_input_notes" class="prcf_generally_any_field"></input>
+					</section>
 
-					<div><label for="prcf_input_notes" id="prcf_label_notes">הערות (אם רלוונטי)</label></div>
-					<input name="notes" type="textarea" id="prcf_input_notes" class="prcf_generally_any_field"></input>
+					<section id="prcf_section_2">
+						<div><label for="prcf_input_date" id="prcf_label_date">יום רצוי לפגישה מרחוק (אם רלוונטי)</label></div>
+						<input type="date" name="date" id="prcf_input_date" class="prcf_timing_fields"></input>
 
-					<div><label for="prcf_input_date" id="prcf_label_date">יום רצוי לפגישה מרחוק (אם רלוונטי)</label></div>
-					<input type="date" name="date" id="prcf_input_date" class="prcf_timing_fields"></input>
-
-					<div><label for="prcf_input_time" id="prcf_label_time">שעה רצויה לפגישה מרחוק (אם רלוונטי)</label></div>
-					<input type="time" name="time" id="prcf_input_time" class="prcf_timing_fields"></input>
+						<div><label for="prcf_input_time" id="prcf_label_time">שעה רצויה לפגישה מרחוק (אם רלוונטי)</label></div>
+						<input type="time" name="time" id="prcf_input_time" class="prcf_timing_fields"></input>
+					</section>
 
 					<div><input type="submit" value="שליחה" id="prcf_input_submit" class="prcf_generally_any_field"></input></div>
 				</div>
