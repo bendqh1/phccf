@@ -93,9 +93,15 @@ form input {
   }
   #prcf_form_child {
     flex-direction: row;
+    padding: 25px 25px 0 25px;
   }
   .prcf_context {
     width: 32%;
-    padding: 25px;
+    padding: 25px 25px 0 25px;
   }
+    
+  #prcf_submit_area {
+    padding: 25px 25px 0 25px; 
+  }
+
 }
