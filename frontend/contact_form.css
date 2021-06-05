@@ -101,7 +101,7 @@ form input {
   }
   .prcf_context {
     width: 32%;
-    padding: 25px 25px 0 25px;
+    padding: 0 25px 0 25px;
   }
     
   #prcf_input_submit_area {
