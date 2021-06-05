@@ -63,12 +63,13 @@ form input {
   white-space: initial;
 }
 
-#prcf_submit_area {
+#prcf_input_submit_area {
   padding: 25px;
 }
 
-#prcf_input_submit {
+#prcf_input_submit_button {
   width: 100%;
+  padding: 5px 0 5px 0;
   border: 2px solid #000;
   border-radius: 25px;
   background-color: green;
@@ -76,16 +77,16 @@ form input {
   color: #fff;
 }
 
-#prcf_input_submit:focus {
+#prcf_input_submit_button:focus {
   color: #fff;
 }
 
-#prcf_input_submit:hover {
+#prcf_input_submit_button:hover {
   background-color: lime;
   color: #000;
 }
 
-#prcf_input_submit:active {
+#prcf_input_submit_button:active {
   background-color: green;
   color: #fff;
 }
@@ -103,7 +104,7 @@ form input {
     padding: 25px 25px 0 25px;
   }
     
-  #prcf_submit_area {
+  #prcf_input_submit_area {
     padding: 0 25px 25px 25px; 
   }
 
