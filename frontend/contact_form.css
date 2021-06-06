@@ -91,9 +91,9 @@ form input {
   color: #fff;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   #prcf_input_time:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 @media screen and (min-width: 992px) {
