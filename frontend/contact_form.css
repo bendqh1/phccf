@@ -6,7 +6,7 @@ form input {
 #prcf_form_child {
   display: flex;
   flex-direction: column;
-  padding: 25px !important; 
+  padding: 25px 25px 0 25px !important; 
 }
 
 .prcf_context {
