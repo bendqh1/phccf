@@ -94,7 +94,7 @@ form input {
 @media screen and (max-width: 992px) {
   #prcf_input_time:last-child {
     margin-bottom: 0;
-  }
+}
 
 @media screen and (min-width: 992px) {
   .prcf_general_structure {
