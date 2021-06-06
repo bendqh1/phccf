@@ -91,11 +91,13 @@ form input {
   color: #fff;
 }
 
+/*
 @media screen and (max-width: 991px) {
   #prcf_input_time {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
 }
+*/
 
 @media screen and (min-width: 992px) {
   .prcf_general_structure {
