@@ -7,7 +7,7 @@
 	$phone = $_POST['phone'];
 	$date = $_POST['date'];
 	$time = $_POST['time'];
-	# $notes = $_POST['notes']; # Normally turned off to prevent spam;
+	$notes = $_POST['notes']; # Normally turned off to prevent spam;
 
 	$to = 'example@example.com';
 	$subject = 'הודעה חדשה מאת: ' . $name;
