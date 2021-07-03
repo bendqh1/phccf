@@ -15,10 +15,6 @@
     box-sizing: border-box;
   }
   
-  .prcf_middle_1 label, .prcf_middle_2 label, .prcf_middle_3 label {
-    width: 100%;
-  }
-  
   .combo_1, combo_2 {
     width: 50%;
   }
