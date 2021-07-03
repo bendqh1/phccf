@@ -32,6 +32,10 @@
   border-radius: 25px;
 }
 
-  .combo_1, .combo_2, .combo_3, .combo_4, .combo_5, .combo_6 {
-    margin: 10px 0 10px 0;
-  }
+.combo_1, .combo_2, .combo_3, .combo_4, .combo_5, .combo_6 {
+  margin: 10px 0 10px 0;
+}
+
+#prcf_input_date, #prcf_input_time {
+  margin: 10px 0 10px 0;
+}
