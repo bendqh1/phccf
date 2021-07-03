@@ -6,6 +6,7 @@
 
 .prcf_general_structure {
   width: 304px;
+  margin: 0 auto 0;
   border: 2px solid #000;
   border-radius: 25px;
   font-size: 1em;
