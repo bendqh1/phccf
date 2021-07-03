@@ -15,7 +15,11 @@
     box-sizing: border-box;
   }
   
-  .prcf_middle_1 input, .prcf_middle_2 input, .prcf_middle_3 input {
+  .prcf_middle_1 label, .prcf_middle_2 label, .prcf_middle_3 label {
+    width: 100%;
+  }
+  
+  .prcf_middle_1 div, .prcf_middle_2 div, .prcf_middle_3 div {
     width: 50%;
   }
 
