@@ -7,6 +7,15 @@
   .prcf_header {
     width: 100%;
   }
+  
+  .prcf_middle {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .prcf_middle_1, .prcf_middle_2, .prcf_middle_3 {
+    padding: 25px; 
+  }
 
   .prcf_footer {
     width: 100%;
