@@ -1,10 +1,10 @@
+#prcf_input_topic, #prcf_input_date, #prcf_input_time, #prcf_input_submit {
+  cursor: pointer;
+}
+
 .prcf_timing_fields {
   border: 2px solid #000;
   border-radius: 25px;
-}
-
-#prcf_input_topic, #prcf_input_date, #prcf_input_time, #prcf_input_submit {
-  cursor: pointer;
 }
 
 #prcf_input_submit_button {
