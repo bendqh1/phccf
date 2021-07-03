@@ -8,13 +8,10 @@
     width: 100%;
   }
   
-  .prcf_middle {
+  .prcf_middle_1, .prcf_middle_2, .prcf_middle_3 {
     display: flex;
     flex-direction: row;
-  }
-  
-  .prcf_middle_1, .prcf_middle_2, .prcf_middle_3 {
-    padding: 25px; 
+    padding: 25px;
   }
 
   .prcf_footer {
