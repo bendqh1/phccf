@@ -8,21 +8,6 @@
     width: 100%;
   }
 
-  .prcf_middle_1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .prcf_middle_2 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .prcf_middle_3 {
-    display: flex;
-    flex-direction: column;
-  }
-
   .prcf_footer {
     width: 100%;
   }
