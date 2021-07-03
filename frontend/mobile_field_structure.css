@@ -1,3 +1,7 @@
+#prcf_input_notes {
+  width: 100%;
+}
+
 #prcf_input_topic, #prcf_input_date, #prcf_input_time, #prcf_input_submit {
   cursor: pointer;
 }
