@@ -4,9 +4,5 @@
     flex-direction: row;
     padding: 25px;
   }
-  
-  #prcf_input_submit_area {
-    padding: 0 25px 25px 25px; 
-  }
 
 }
