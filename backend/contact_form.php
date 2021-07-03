@@ -1,8 +1,8 @@
 <?php
 
 	include 'include_html_fields_output_posting';
+	include 'include_recipient';
 
-	$to = 'example@example.com';
 	$subject = 'הודעה חדשה מאת: ' . $name;
 
 	include 'include_message_output_format.php';
