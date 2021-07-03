@@ -1,18 +1,7 @@
 @media screen and (min-width: 992px) {
+  
   .prcf_general_structure {
     width: 100%;
-  }
-  #prcf_form_child {
-    flex-direction: row;
-    padding: 25px;
-  }
-  .prcf_context {
-    width: 50%;
-    padding: 0 25px 0 25px;
-  }
-    
-  #prcf_input_submit_area {
-    padding: 0 25px 25px 25px; 
   }
 
 }
