@@ -5,13 +5,21 @@
   }
 
   .prcf_header {
+    width: 100%;
+  }
+
+  .prcf_middle_1 {
     width: 50%;
   }
 
-  .prcf_middle {
+  .prcf_middle_2 {
     width: 50%;
   }
-  
+
+  .prcf_middle_2 {
+    width: 50%;
+  }
+
   .prcf_footer {
     width: 100%;
   }
