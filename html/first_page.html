@@ -12,7 +12,7 @@
 		<div id="prcf_form_parent">
 			<form dir="rtl" lang="he" id="contact_form" class="prcf_general_structure" action="prcf-main/backend/contact_form.php" method="POST">
 				<div id="prcf_form_child">
-					<div class="prcf_context">
+					<div class="prcf_header">
 						<div><label for="prcf_input_topic" id="prcf_label_topic">פנייה בנושא</label></div>
 						<select name="topic" id="prcf_input_topic" class="prcf_generally_any_field">
 							<option value="אבחון קידום אתרים">אבחון קידום אתרים</option>
@@ -30,7 +30,7 @@
 						<input type="email" dir="ltr" name="email" id="prcf_input_email" class="prcf_generally_any_field" required></input> <!-- required property-->
 					</div>
 
-					<div class="prcf_context">
+					<div class="prcf_middle">
 						<div><label for="prcf_input_phone" id="prcf_label_phone">מספר טלפון (אם רלוונטי)</label></div>
 						<input type="tel" dir="ltr" name="phone" id="prcf_input_phone" class="prcf_generally_any_field"></input>
 
@@ -41,7 +41,7 @@
 						<textarea name="notes" id="prcf_input_notes" class="prcf_generally_any_field"></textarea>
 					</div>
 
-					<div class="prcf_context">
+					<div class="prcf_footer">
 						<div><label for="prcf_input_date" id="prcf_label_date">יום רצוי לפגישה מרחוק (אם רלוונטי)</label></div>
 						<input type="date" name="date" id="prcf_input_date" class="prcf_timing_fields"></input>
 
@@ -49,6 +49,7 @@
 						<input type="time" name="time" id="prcf_input_time" class="prcf_timing_fields"></input>
 					</div>
 				</div>
+
 				<div id="prcf_input_submit_area">
 					<input type="submit" value="שליחה" id="prcf_input_submit_button"></input>
 				</div>
