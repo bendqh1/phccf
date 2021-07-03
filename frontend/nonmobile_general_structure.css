@@ -13,10 +13,11 @@
     flex-direction: row;
     padding: 25px;
     box-sizing: border-box;
+    width: 50%;
   }
   
   .combo_1, .combo_2, .combo_3, .combo_4, .combo_5, .combo_6 {
-    width: 50%;
+    width: 100%;
   }
 
   .prcf_footer {
