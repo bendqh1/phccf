@@ -2,9 +2,8 @@
   cursor: pointer;
 }
 
-.prcf_timing_fields {
-  border: 2px solid #000;
-  border-radius: 25px;
+#prcf_input_notes {
+  min-height: 100px;
 }
 
 #prcf_input_submit_button {
