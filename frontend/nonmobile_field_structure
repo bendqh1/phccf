@@ -1,7 +1,5 @@
 @media screen and (min-width: 992px) {
 
-  #prcf_form_child {
-    flex-direction: row;
-  }
+  /**/
 
 }
