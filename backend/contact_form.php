@@ -5,7 +5,7 @@
 	include 'include_subject';
 	include 'include_message_output_format.php';
 	include 'include_headers.php';
-	mail($to, $subject, $message, implode("\r\n", $headers));
+	include 'include_mail.php';
 
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
  		header('Location: $contact_form_success_webpage');
