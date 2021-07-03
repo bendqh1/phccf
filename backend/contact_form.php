@@ -1,27 +1,12 @@
 <?php
 
-	include 'html_fields_output_posting';
-	$topic = $_POST['topic']; # Required;
-
-	$name = $_POST['name'];   # Required;
-	$email = $_POST['email']; # Required;
-
-	$phone = $_POST['phone'];
-	$url = $_POST['url']; # Name attribute is "url" but input type is "text" because "url" obligates http:// or https:// which users normally don't input;
-
-	$notes = $_POST['notes']; # Normally turned off to prevent spam;
-
-	$date = $_POST['date'];
-	$time = $_POST['time'];
+	include 'include_html_fields_output_posting';
 
 	$to = 'example@example.com';
 	$subject = 'הודעה חדשה מאת: ' . $name;
 
 	include 'include_message_output_format.php';
 	include 'include_headers.php';
-
-	$headers[] = 'MIME-Version: 1.0';
-	$headers[] = 'Content-type: text/html; charset=utf-8';
 	mail($to, $subject, $message, implode("\r\n", $headers));
 
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
