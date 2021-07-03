@@ -11,22 +11,22 @@
   font-size: 1em;
 }
 
-.prcf_generally_any_field {
-  width: 100%;
-  border: 2px solid #000;
-  border-radius: 25px;
-}
-
 .prcf_general_structure label {
   font-weight: bold;
 }
+
 .prcf_general_structure label:after {
   content:":";
 }
+
 .prcf_general_structure .required {
   color: red; /* #b32424 is similar to Red but with contrast-ratio >= 4.50 (6.57) on White backgrounds which is good for accessibility */
 }
 
-.prcf_general_structure input:hover, .prcf_general_structure select:hover, .prcf_general_structure input:focus, .prcf_general_structure select:focus {
-  border-color: green; 
+.prcf_generally_any_field {
+  width: 100% !important;
+  margin: 10px 0 10px 0 !important;
+  padding: 10px 0 10px 0 !important;
+  border: 2px solid #000;
+  border-radius: 25px;
 }
