@@ -1,21 +1,14 @@
 .prcf_timing_fields {
   border: 2px solid #000;
   border-radius: 25px;
-  margin: 10px 0 25px 0 !important;
-  padding: 5px 0 5px 0;
 }
 
 #prcf_input_topic, #prcf_input_date, #prcf_input_time, #prcf_input_submit {
   cursor: pointer;
 }
 
-#prcf_input_topic {
-  white-space: initial;
-}
-
 #prcf_input_submit_button {
   width: 100%;
-  padding: 5px 0 5px 0;
   border: 2px solid #000;
   border-radius: 25px;
   background-color: green;
