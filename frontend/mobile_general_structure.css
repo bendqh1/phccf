@@ -1,6 +1,7 @@
 #prcf_form_child {
   display: flex;
   flex-direction: column;
+  padding: 25px;
 }
 
 .prcf_general_structure {
