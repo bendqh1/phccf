@@ -1,1 +1,1 @@
-	$to = 'example@example.com';
+$to = 'example@example.com';
