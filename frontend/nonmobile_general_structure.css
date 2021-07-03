@@ -15,7 +15,7 @@
     box-sizing: border-box;
   }
   
-  .combo_1, combo_2 {
+  .combo_1, .combo_2, .combo_3, .combo_4, .combo_5, .combo_6 {
     width: 50%;
   }
 
