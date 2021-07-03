@@ -4,4 +4,9 @@
     width: 100%;
   }
 
+  .prcf_context {
+    width: 50%;
+    padding: 0 25px 0 25px;
+  }
+
 }
