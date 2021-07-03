@@ -2,7 +2,6 @@
 
   #prcf_form_child {
     flex-direction: row;
-    padding: 25px;
   }
 
 }
