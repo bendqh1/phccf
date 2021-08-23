@@ -1,0 +1,98 @@
+/*Global*/
+
+#prcf_form_child {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.prcf_general_structure {
+  margin: 0 auto 0;
+  border: 2px solid #000;
+  border-radius: 25px;
+  font-size: 1em;
+}
+
+.prcf_generally_any_field {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  padding: 5px 10px 5px 10px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 25px;
+}
+
+.prcf_general_structure label {
+  font-weight: bold;
+}
+
+.prcf_general_structure label:after {
+  content:":";
+}
+
+.prcf_general_structure .required {
+  color: red;
+}
+
+#prcf_input_topic, #prcf_input_date, #prcf_input_time, #prcf_input_submit {
+  cursor: pointer;
+}
+
+/*Header*/
+
+#prcf_form_header {
+  padding: 0 0 25px 0;
+}
+
+/*Middle*/
+
+.prcf_form_middle {
+  padding: 0 0 0 0;
+}
+
+.prcf_timing_fields {
+  border: 2px solid #000;
+  border-radius: 25px;
+}
+
+#prcf_input_date, #prcf_input_time {
+  margin: 10px 0 10px 0;
+}
+
+/*Footer*/
+
+#prcf_form_footer {
+  padding: 25px 0 0 0;
+}
+
+#prcf_input_submit_button {
+width: 100%;
+padding: 10px;
+border: 2px solid #000;
+border-radius: 25px;
+background-color: green;
+font-weight: bold;
+color: #fff;
+}
+
+#prcf_input_submit_button:focus {
+  color: #fff;
+}
+
+#prcf_input_submit_button:hover {
+  background-color: lime;
+  color: #000;
+}
+
+#prcf_input_submit_button:active {
+  background-color: green;
+  color: #fff;
+}
+
+/*Miscellaneous*/
+
+#prcf_homepage {
+  display: none;
+  margin: 0 auto;
+  padding: 25px;
+}
